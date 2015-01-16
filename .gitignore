@@ -1,6 +1,46 @@
-# Files from Altium
+# Fichiers en vrac
+Thumbs.db
+*~
+*.Ink
+*.autosave
+*.o
+
+# Altium
 History
 __Previews
 *.PrjPCBStructure
+*.PrjPcbStructure
 Project Outputs for *
 Project Logs for *
+
+# PCB
+# *.IntLib
+# *.LOG
+
+# PIC
+*.cof
+*.mcw
+*.hex
+build/
+dist/
+
+
+# PSOC ?
+codegentemp/
+CortexM3/
+Generated_Source/
+TopDesign/
+
+
+
+# LaTeX :
+*.aux
+*.dvi
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+
+# Python
+*.py[cod]
