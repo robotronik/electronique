@@ -1,15 +1,11 @@
-# Fichiers en vrac
-Thumbs.db
-*~
-*.Ink
-*.autosave
-*.o
-
-# Altium
+##### Altium
 History
 __Previews
 *.PrjPCBStructure
 *.PrjPcbStructure
+
+*.SchDocPreview
+*.PcbDocPreview
 Project Outputs for *
 Project Logs for *
 
@@ -17,30 +13,13 @@ Project Logs for *
 # *.IntLib
 # *.LOG
 
-# PIC
-*.cof
-*.mcw
-*.hex
-build/
-dist/
-
-
-# PSOC ?
-codegentemp/
-CortexM3/
-Generated_Source/
-TopDesign/
-
-
-
-# LaTeX :
-*.aux
-*.dvi
+#### Kicad
+*.bak
+*.bck
+*.raw
 *.log
-*.out
-*.synctex.gz
-*.toc
+*.dcm
+*.kicad_pcb-bak
+*autosave*
+*cache*
 
-
-# Python
-*.py[cod]
