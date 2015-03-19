@@ -54,7 +54,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CFWNVSKM
 
 [Document2]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\carte.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -68,7 +68,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RAYVRULM
+DocumentUniqueId=CLFYXKOG
 
 [Configuration1]
 Name=Default Configuration
