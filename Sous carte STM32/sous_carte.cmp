@@ -1,4 +1,88 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = dim. 22 mars 2015 17:34:13 CET
+Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = ven. 27 mars 2015 19:43:25 CET
+
+BeginCmp
+TimeStamp = /55160333;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5516054D;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551605CD;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55160664;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551679EE;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551679F4;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551679FA;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167A00;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167B85;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167B8B;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167B91;
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167B97;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
 
 BeginCmp
 TimeStamp = /550EF8FD;
@@ -61,6 +145,90 @@ TimeStamp = /550F10C2;
 Reference = P8;
 ValeurCmp = CONN_2;
 IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55160905;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5516094C;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55160988;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /551609BF;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167A06;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167A0C;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167A12;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167A18;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167B9D;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167BA3;
+Reference = R10;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167BA9;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55167BAF;
+Reference = R12;
+ValeurCmp = R;
+IdModule  = Discret:R4;
 EndCmp
 
 EndListe
