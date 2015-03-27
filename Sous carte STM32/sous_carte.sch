@@ -1356,4 +1356,21 @@ Connection ~ 2300 7250
 Connection ~ 2600 7250
 Connection ~ 2900 7250
 Connection ~ 3200 7250
+Connection ~ 9900 4750
+Connection ~ 9900 4850
+Connection ~ 9900 4950
+Connection ~ 9900 5050
+Connection ~ 9900 5150
+Connection ~ 9900 5250
+Connection ~ 9900 4650
+Connection ~ 9900 3350
+Connection ~ 9900 3250
+Connection ~ 9900 3150
+Connection ~ 9900 3050
+Connection ~ 9900 2950
+Connection ~ 9900 2850
+Connection ~ 9100 2850
+Connection ~ 9100 3950
+Connection ~ 9100 4050
+Connection ~ 9100 5250
 $EndSCHEMATC
