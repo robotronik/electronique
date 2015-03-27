@@ -257,7 +257,7 @@ F 3 "" H 8100 3350 60  0000 C CNN
 $EndComp
 Text Notes 1600 2350 0    60   ~ 0
 ATTENTION : si le Xbee consomme plus de 100mA rajouter un régulateur 3.3V dédié
-Text Notes 5600 1750 0    60   ~ 0
+Text Notes 5600 2200 0    60   ~ 0
 Inverser les deux si convention\ncontraire sur les autres cartes
 Text GLabel 2100 4700 1    60   Input ~ 0
 UART3_TX
@@ -979,11 +979,11 @@ Connection ~ 9100 4000
 Wire Notes Line
 	5500 800  7050 800 
 Wire Notes Line
-	7050 800  7050 1550
+	7050 800  7050 2000
 Wire Notes Line
-	7050 1550 5500 1550
+	5500 2000 7050 2000
 Wire Notes Line
-	5500 1550 5500 800 
+	5500 800  5500 2000
 Connection ~ 3400 3150
 Connection ~ 3400 3250
 Connection ~ 4900 3250
@@ -1314,4 +1314,39 @@ Wire Wire Line
 	8800 1950 9700 1950
 Connection ~ 9400 1950
 Connection ~ 9100 1950
+$Comp
+L LED D?
+U 1 1 5515F8A6
+P 5850 1600
+F 0 "D?" H 5850 1700 50  0000 C CNN
+F 1 "LED" H 5850 1500 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 5850 1600 60  0001 C CNN
+F 3 "" H 5850 1600 60  0000 C CNN
+	1    5850 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5515F8AC
+P 6100 1800
+F 0 "R?" V 6180 1800 40  0000 C CNN
+F 1 "R" V 6107 1801 40  0000 C CNN
+F 2 "Discret:R4" V 6030 1800 30  0001 C CNN
+F 3 "" H 6100 1800 30  0000 C CNN
+	1    6100 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5515F920
+P 6350 1850
+F 0 "#PWR?" H 6350 1850 30  0001 C CNN
+F 1 "GND" H 6350 1780 30  0001 C CNN
+F 2 "" H 6350 1850 60  0000 C CNN
+F 3 "" H 6350 1850 60  0000 C CNN
+	1    6350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1800 6350 1850
 $EndSCHEMATC

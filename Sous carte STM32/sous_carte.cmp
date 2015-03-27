@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = ven. 27 mars 2015 19:43:25 CET
+Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = ven. 27 mars 2015 23:45:55 CET
 
 BeginCmp
 TimeStamp = /55160333;
@@ -80,6 +80,13 @@ EndCmp
 BeginCmp
 TimeStamp = /55167B97;
 Reference = D12;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5515F8A6;
+Reference = D13;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-3MM;
 EndCmp
@@ -227,6 +234,13 @@ EndCmp
 BeginCmp
 TimeStamp = /55167BAF;
 Reference = R12;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5515F8AC;
+Reference = R13;
 ValeurCmp = R;
 IdModule  = Discret:R4;
 EndCmp
