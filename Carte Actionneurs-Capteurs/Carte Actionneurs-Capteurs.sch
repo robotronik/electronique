@@ -1406,7 +1406,7 @@ F 3 "" H 9200 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 9550 4850 0    60   ~ 0
-(Pololu MC22926)
+(Pololu MC33926)
 $Comp
 L CONN_12 P12
 U 1 1 5519A4B2
