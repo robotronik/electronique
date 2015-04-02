@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source "/home/larchuto/robotronik.electronique/Carte Alimentation/Carte Alim.sch")
-    (date "mer. 01 avril 2015 22:26:19 CEST")
-    (tool "Eeschema (2015-03-14 BZR 5512)-product")
+    (source "/home/salamandar/Robotronik/Gits/electronique/Carte Alimentation/Carte Alim.sch")
+    (date "mer. 01 avril 2015 23:42:31 CEST")
+    (tool "Eeschema (2015-03-26 BZR 5542)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title carte_alim_2014)
@@ -514,10 +514,10 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical linear)
-      (uri /usr/share/kicad/library/linear.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical linear)
+      (uri /usr/share/kicad/library/linear.lib)))
   (nets
     (net (code 1) (name "Net-(D9-Pad1)")
       (node (ref U4) (pin 7))
