@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = sam. 21 mars 2015 19:28:04 CET
+Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = ven. 08 mai 2015 12:23:50 CEST
 
 BeginCmp
 TimeStamp = /54DCF13C;
@@ -12,6 +12,20 @@ TimeStamp = /54D395CF;
 Reference = 0.47u1;
 ValeurCmp = C;
 IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCBDF1;
+Reference = 1k1;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCD19B;
+Reference = 1k2;
+ValeurCmp = R;
+IdModule  = Discret:R4;
 EndCmp
 
 BeginCmp
@@ -43,13 +57,6 @@ IdModule  = Discret:R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DCE540;
-Reference = 5V1;
-ValeurCmp = ZENER;
-IdModule  = Discret:D4;
-EndCmp
-
-BeginCmp
 TimeStamp = /54DCDC6C;
 Reference = 15u1;
 ValeurCmp = CP1;
@@ -75,20 +82,6 @@ TimeStamp = /54DCEC70;
 Reference = 22u1;
 ValeurCmp = INDUCTOR;
 IdModule  = Discret:C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /54DCBC2C;
-Reference = 100k1;
-ValeurCmp = R;
-IdModule  = Discret:R4;
-EndCmp
-
-BeginCmp
-TimeStamp = /54DCD185;
-Reference = 100k2;
-ValeurCmp = R;
-IdModule  = Discret:R4;
 EndCmp
 
 BeginCmp
@@ -221,6 +214,13 @@ BeginCmp
 TimeStamp = /54DCD581;
 Reference = D11;
 ValeurCmp = DIODE;
+IdModule  = Discret:D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /554C9FE6;
+Reference = D12;
+ValeurCmp = DIODESCH;
 IdModule  = Discret:D4;
 EndCmp
 
@@ -358,7 +358,7 @@ IdModule  = Discret:R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DCBDF1;
+TimeStamp = /54DCBC2C;
 Reference = R4;
 ValeurCmp = R;
 IdModule  = Discret:R4;
@@ -372,13 +372,6 @@ IdModule  = Discret:R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DCD19B;
-Reference = R6;
-ValeurCmp = R;
-IdModule  = Discret:R4;
-EndCmp
-
-BeginCmp
 TimeStamp = /54DCD1A1;
 Reference = R7;
 ValeurCmp = R;
@@ -386,14 +379,21 @@ IdModule  = Discret:R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /550DC1BA;
+TimeStamp = /54DCD185;
+Reference = R254;
+ValeurCmp = R;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /550DC27F;
 Reference = U3;
 ValeurCmp = LM2903;
 IdModule  = Sockets_DIP:DIP-8__300;
 EndCmp
 
 BeginCmp
-TimeStamp = /550DD3A9;
+TimeStamp = /550DD711;
 Reference = U4;
 ValeurCmp = LM2903;
 IdModule  = Sockets_DIP:DIP-8__300;
