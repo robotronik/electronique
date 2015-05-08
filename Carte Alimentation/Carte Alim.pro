@@ -1,4 +1,4 @@
-update=mer. 01 avril 2015 23:39:45 CEST
+update=ven. 08 mai 2015 12:37:44 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,14 +8,29 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=Carte Alim.net
+UseCmpFile=0
+PadDrill=1.016
+PadDrillOvalY=1.016
+PadSizeH=1.524
+PadSizeV=1.524
+PcbTextSizeV=1
+PcbTextSizeH=1
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibDir=../Librairies/Kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -48,23 +63,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=7905
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=Carte Alim.net
-UseCmpFile=0
-PadDrill=1.016
-PadDrillOvalY=1.016
-PadSizeH=1.524
-PadSizeV=1.524
-PcbTextSizeV=1
-PcbTextSizeH=1
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15

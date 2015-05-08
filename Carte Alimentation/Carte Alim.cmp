@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = ven. 08 mai 2015 12:23:50 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-03-14 BZR 5512)-product   date = ven. 08 mai 2015 12:50:08 CEST
 
 BeginCmp
 TimeStamp = /54DCF13C;
@@ -242,7 +242,7 @@ BeginCmp
 TimeStamp = /54DCDA47;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -277,28 +277,28 @@ BeginCmp
 TimeStamp = /54D398AD;
 Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D398BC;
 Reference = P6;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCD52F;
 Reference = P7;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCD53E;
 Reference = P8;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -397,6 +397,13 @@ TimeStamp = /550DD711;
 Reference = U4;
 ValeurCmp = LM2903;
 IdModule  = Sockets_DIP:DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EAF722;
+Reference = U100;
+ValeurCmp = 7905_CORRIGE;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 EndListe
