@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source "/home/felix/Robotronik/Dépôts/electronique/Carte OlINPiades/2015/Carte OlINPiades 2015.sch")
-    (date "mer. 09 sept. 2015 23:56:54 CEST")
-    (tool "Eeschema (2015-06-20 BZR 5796)-product")
+    (source "/home/larchuto/Robotronik/electronique/Carte OlINPiades/2015/Carte OlINPiades 2015.sch")
+    (date "jeu. 10 sept. 2015 00:53:53 CEST")
+    (tool "Eeschema (2015-09-09 BZR 6175)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Yeux du Char 2015")
@@ -1715,6 +1715,17 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55F0C244)))
   (libparts
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part C)
       (description "Condensateur non polarise")
       (footprints
@@ -1727,14 +1738,17 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part CP1)
-      (description "Condensateur polarise")
+    (libpart (lib device) (part R)
+      (description Resistance)
       (footprints
-        (fp CP*)
-        (fp SM*))
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
       (fields
-        (field (name Reference) C)
-        (field (name Value) CP1))
+        (field (name Reference) R)
+        (field (name Value) R))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -1753,20 +1767,6 @@
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistance)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_2)
       (description "Symbole general de connecteur")
       (fields
@@ -1914,12 +1914,12 @@
     (library (logical regul)
       (uri /usr/share/kicad/library/regul.lib))
     (library (logical "Carte Olinpiades 2015 - librairie de composants")
-      (uri "Carte Olinpiades 2015 - librairie de composants.lib")))
+      (uri "/home/larchuto/Robotronik/electronique/Carte OlINPiades/2015/Carte Olinpiades 2015 - librairie de composants.lib")))
   (nets
     (net (code 1) (name "Net-(DEMUX1-Pad19)")
       (node (ref S3) (pin 4))
       (node (ref DEMUX1) (pin 19)))
-    (net (code 2) (name VPP)
+    (net (code 2) (name +5V)
       (node (ref DEMUX1) (pin 1))
       (node (ref S7) (pin 2))
       (node (ref S7) (pin 3))
@@ -2251,7 +2251,7 @@
     (net (code 57) (name "Net-(R3-Pad2)")
       (node (ref R3) (pin 2))
       (node (ref S1) (pin 23)))
-    (net (code 58) (name VCC)
+    (net (code 58) (name +3.3V)
       (node (ref DEMUX1) (pin 24))
       (node (ref R1) (pin 2))
       (node (ref Pickit1) (pin 2))
