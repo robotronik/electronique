@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-06-20 BZR 5796)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-09-09 BZR 6175)-product")
 
   (general
     (links 597)
-    (no_connects 85)
-    (area 0 0 0 0)
+    (no_connects 121)
+    (area 140.440386 93.8286 156.561815 117.178601)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -274,7 +274,7 @@
   )
 
   (module Connect:bornier2 (layer F.Cu) (tedit 0) (tstamp 55F0B0CF)
-    (at 148.5011 105.0036)
+    (at 182 36)
     (descr "Bornier d'alimentation 2 pins")
     (tags DEV)
     (path /55F28374)
@@ -301,7 +301,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55F0B0D5)
-    (at 148.5011 105.0036)
+    (at 184 50.5)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55F123A1)
@@ -330,7 +330,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55F0B0DB)
-    (at 148.5011 105.0036)
+    (at 166.5 59)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55F14C27)
@@ -359,7 +359,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55F0B0E1)
-    (at 148.5011 105.0036)
+    (at 175 50.5)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55F0EA56)
@@ -388,7 +388,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55F0B0E7)
-    (at 148.5011 105.0036)
+    (at 193.5 51)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55F17C94)
@@ -417,7 +417,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55F0B0ED)
-    (at 148.5011 105.0036)
+    (at 193.5 58.5)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55F18CDA)
@@ -446,7 +446,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55F0B0F3)
-    (at 148.5011 105.0036)
+    (at 175.5 59)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55F1CDC9)
@@ -475,7 +475,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55F0B0F9)
-    (at 148.5011 105.0036)
+    (at 184 59)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55F1CDD1)
@@ -504,7 +504,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B0FF)
-    (at 148.5011 105.0036)
+    (at 57 136)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16F63)
@@ -539,7 +539,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B105)
-    (at 148.5011 105.0036)
+    (at 71 167.5)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0412C)
@@ -574,7 +574,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B10B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16097)
@@ -609,7 +609,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B111)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16141)
@@ -644,7 +644,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B117)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F161EB)
@@ -679,7 +679,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B11D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163A3)
@@ -714,7 +714,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B123)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16727)
@@ -749,7 +749,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B129)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167C7)
@@ -784,7 +784,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B12F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16867)
@@ -819,7 +819,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B135)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16907)
@@ -854,7 +854,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B13B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169A7)
@@ -889,7 +889,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B141)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B0F)
@@ -924,7 +924,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B147)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BAF)
@@ -959,7 +959,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B14D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C4F)
@@ -994,7 +994,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B153)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16CEF)
@@ -1029,7 +1029,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B159)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D8F)
@@ -1064,7 +1064,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B15F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F020AC)
@@ -1099,7 +1099,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B165)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04132)
@@ -1134,7 +1134,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B16B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1609D)
@@ -1169,7 +1169,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B171)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16147)
@@ -1204,7 +1204,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B177)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F161F1)
@@ -1239,7 +1239,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B17D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163A9)
@@ -1274,7 +1274,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B183)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1672D)
@@ -1309,7 +1309,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B189)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167CD)
@@ -1344,7 +1344,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B18F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1686D)
@@ -1379,7 +1379,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B195)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1690D)
@@ -1414,7 +1414,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B19B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169AD)
@@ -1449,7 +1449,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1A1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B15)
@@ -1484,7 +1484,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1A7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BB5)
@@ -1519,7 +1519,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1AD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C55)
@@ -1554,7 +1554,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1B3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16CF5)
@@ -1589,7 +1589,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1B9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D95)
@@ -1624,7 +1624,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1BF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0212B)
@@ -1659,7 +1659,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1C5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04138)
@@ -1694,7 +1694,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1CB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160A3)
@@ -1729,7 +1729,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1D1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1614D)
@@ -1764,7 +1764,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1D7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F161F7)
@@ -1799,7 +1799,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1DD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163AF)
@@ -1834,7 +1834,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1E3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16733)
@@ -1869,7 +1869,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1E9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167D3)
@@ -1904,7 +1904,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1EF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16873)
@@ -1939,7 +1939,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1F5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16913)
@@ -1974,7 +1974,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B1FB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169B3)
@@ -2009,7 +2009,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B201)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B1B)
@@ -2044,7 +2044,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B207)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BBB)
@@ -2079,7 +2079,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B20D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C5B)
@@ -2114,7 +2114,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B213)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16CFB)
@@ -2149,7 +2149,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B219)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D9B)
@@ -2184,7 +2184,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B21F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F02131)
@@ -2219,7 +2219,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B225)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0413E)
@@ -2254,7 +2254,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B22B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160A9)
@@ -2289,7 +2289,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B231)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16153)
@@ -2324,7 +2324,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B237)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F161FD)
@@ -2359,7 +2359,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B23D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163B5)
@@ -2394,7 +2394,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B243)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16739)
@@ -2429,7 +2429,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B249)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167D9)
@@ -2464,7 +2464,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B24F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16879)
@@ -2499,7 +2499,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B255)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16919)
@@ -2534,7 +2534,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B25B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169B9)
@@ -2569,7 +2569,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B261)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B21)
@@ -2604,7 +2604,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B267)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BC1)
@@ -2639,7 +2639,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B26D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C61)
@@ -2674,7 +2674,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B273)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D01)
@@ -2709,7 +2709,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B279)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DA1)
@@ -2744,7 +2744,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B27F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F02407)
@@ -2779,7 +2779,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B285)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04144)
@@ -2814,7 +2814,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B28B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160AF)
@@ -2849,7 +2849,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B291)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16159)
@@ -2884,7 +2884,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B297)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16203)
@@ -2919,7 +2919,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B29D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163BB)
@@ -2954,7 +2954,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2A3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1673F)
@@ -2989,7 +2989,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2A9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167DF)
@@ -3024,7 +3024,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2AF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1687F)
@@ -3059,7 +3059,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2B5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1691F)
@@ -3094,7 +3094,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2BB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169BF)
@@ -3129,7 +3129,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2C1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B27)
@@ -3164,7 +3164,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2C7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BC7)
@@ -3199,7 +3199,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2CD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C67)
@@ -3234,7 +3234,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2D3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D07)
@@ -3269,7 +3269,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2D9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DA7)
@@ -3304,7 +3304,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2DF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0240D)
@@ -3339,7 +3339,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2E5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0414A)
@@ -3374,7 +3374,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2EB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160B5)
@@ -3409,7 +3409,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2F1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1615F)
@@ -3444,7 +3444,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2F7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16209)
@@ -3479,7 +3479,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B2FD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163C1)
@@ -3514,7 +3514,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B303)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16745)
@@ -3549,7 +3549,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B309)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167E5)
@@ -3584,7 +3584,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B30F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16885)
@@ -3619,7 +3619,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B315)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16925)
@@ -3654,7 +3654,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B31B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169C5)
@@ -3689,7 +3689,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B321)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B2D)
@@ -3724,7 +3724,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B327)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BCD)
@@ -3759,7 +3759,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B32D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C6D)
@@ -3794,7 +3794,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B333)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D0D)
@@ -3829,7 +3829,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B339)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DAD)
@@ -3864,7 +3864,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B33F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F02413)
@@ -3899,7 +3899,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B345)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04150)
@@ -3934,7 +3934,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B34B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160BB)
@@ -3969,7 +3969,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B351)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16165)
@@ -4004,7 +4004,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B357)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1620F)
@@ -4039,7 +4039,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B35D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163C7)
@@ -4074,7 +4074,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B363)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1674B)
@@ -4109,7 +4109,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B369)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167EB)
@@ -4144,7 +4144,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B36F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1688B)
@@ -4179,7 +4179,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B375)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1692B)
@@ -4214,7 +4214,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B37B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169CB)
@@ -4249,7 +4249,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B381)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B33)
@@ -4284,7 +4284,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B387)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BD3)
@@ -4319,7 +4319,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B38D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C73)
@@ -4354,7 +4354,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B393)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D13)
@@ -4389,7 +4389,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B399)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DB3)
@@ -4424,7 +4424,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B39F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F02419)
@@ -4459,7 +4459,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3A5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04156)
@@ -4494,7 +4494,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3AB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160C1)
@@ -4529,7 +4529,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3B1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1616B)
@@ -4564,7 +4564,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3B7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16215)
@@ -4599,7 +4599,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3BD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163CD)
@@ -4634,7 +4634,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3C3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16751)
@@ -4669,7 +4669,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3C9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167F1)
@@ -4704,7 +4704,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3CF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16891)
@@ -4739,7 +4739,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3D5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16931)
@@ -4774,7 +4774,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3DB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169D1)
@@ -4809,7 +4809,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3E1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B39)
@@ -4844,7 +4844,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3E7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BD9)
@@ -4879,7 +4879,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3ED)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C79)
@@ -4914,7 +4914,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3F3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D19)
@@ -4949,7 +4949,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3F9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DB9)
@@ -4984,7 +4984,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B3FF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0279F)
@@ -5019,7 +5019,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B405)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0415C)
@@ -5054,7 +5054,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B40B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160C7)
@@ -5089,7 +5089,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B411)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16171)
@@ -5124,7 +5124,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B417)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1621B)
@@ -5159,7 +5159,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B41D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163D3)
@@ -5194,7 +5194,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B423)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16757)
@@ -5229,7 +5229,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B429)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167F7)
@@ -5264,7 +5264,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B42F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16897)
@@ -5299,7 +5299,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B435)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16937)
@@ -5334,7 +5334,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B43B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169D7)
@@ -5369,7 +5369,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B441)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B3F)
@@ -5404,7 +5404,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B447)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BDF)
@@ -5439,7 +5439,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B44D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C7F)
@@ -5474,7 +5474,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B453)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D1F)
@@ -5509,7 +5509,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B459)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DBF)
@@ -5544,7 +5544,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B45F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F027A5)
@@ -5579,7 +5579,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B465)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04162)
@@ -5614,7 +5614,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B46B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160CD)
@@ -5649,7 +5649,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B471)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16177)
@@ -5684,7 +5684,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B477)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16221)
@@ -5719,7 +5719,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B47D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163D9)
@@ -5754,7 +5754,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B483)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1675D)
@@ -5789,7 +5789,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B489)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F167FD)
@@ -5824,7 +5824,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B48F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1689D)
@@ -5859,7 +5859,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B495)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1693D)
@@ -5894,7 +5894,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B49B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169DD)
@@ -5929,7 +5929,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4A1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B45)
@@ -5964,7 +5964,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4A7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BE5)
@@ -5999,7 +5999,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4AD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C85)
@@ -6034,7 +6034,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4B3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D25)
@@ -6069,7 +6069,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4B9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DC5)
@@ -6104,7 +6104,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4BF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F027AB)
@@ -6139,7 +6139,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4C5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04168)
@@ -6174,7 +6174,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4CB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160D3)
@@ -6209,7 +6209,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4D1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1617D)
@@ -6244,7 +6244,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4D7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16227)
@@ -6279,7 +6279,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4DD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163DF)
@@ -6314,7 +6314,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4E3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16763)
@@ -6349,7 +6349,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4E9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16803)
@@ -6384,7 +6384,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4EF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F168A3)
@@ -6419,7 +6419,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4F5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16943)
@@ -6454,7 +6454,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B4FB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169E3)
@@ -6489,7 +6489,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B501)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B4B)
@@ -6524,7 +6524,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B507)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BEB)
@@ -6559,7 +6559,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B50D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C8B)
@@ -6594,7 +6594,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B513)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D2B)
@@ -6629,7 +6629,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B519)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DCB)
@@ -6664,7 +6664,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B51F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F027B1)
@@ -6699,7 +6699,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B525)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0416E)
@@ -6734,7 +6734,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B52B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160D9)
@@ -6769,7 +6769,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B531)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16183)
@@ -6804,7 +6804,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B537)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1622D)
@@ -6839,7 +6839,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B53D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163E5)
@@ -6874,7 +6874,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B543)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16769)
@@ -6909,7 +6909,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B549)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16809)
@@ -6944,7 +6944,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B54F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F168A9)
@@ -6979,7 +6979,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B555)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16949)
@@ -7014,7 +7014,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B55B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169E9)
@@ -7049,7 +7049,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B561)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B51)
@@ -7084,7 +7084,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B567)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BF1)
@@ -7119,7 +7119,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B56D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C91)
@@ -7154,7 +7154,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B573)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D31)
@@ -7189,7 +7189,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B579)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DD1)
@@ -7224,7 +7224,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B57F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F027B7)
@@ -7259,7 +7259,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B585)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04174)
@@ -7294,7 +7294,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B58B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160DF)
@@ -7329,7 +7329,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B591)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16189)
@@ -7364,7 +7364,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B597)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16233)
@@ -7399,7 +7399,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B59D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163EB)
@@ -7434,7 +7434,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5A3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1676F)
@@ -7469,7 +7469,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5A9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1680F)
@@ -7504,7 +7504,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5AF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F168AF)
@@ -7539,7 +7539,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5B5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1694F)
@@ -7574,7 +7574,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5BB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169EF)
@@ -7609,7 +7609,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5C1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B57)
@@ -7644,7 +7644,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5C7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BF7)
@@ -7679,7 +7679,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5CD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C97)
@@ -7714,7 +7714,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5D3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D37)
@@ -7749,7 +7749,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5D9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DD7)
@@ -7784,7 +7784,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5DF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F027BD)
@@ -7819,7 +7819,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5E5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F0417A)
@@ -7854,7 +7854,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5EB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160E5)
@@ -7889,7 +7889,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5F1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1618F)
@@ -7924,7 +7924,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5F7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16239)
@@ -7959,7 +7959,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B5FD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163F1)
@@ -7994,7 +7994,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B603)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16775)
@@ -8029,7 +8029,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B609)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16815)
@@ -8064,7 +8064,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B60F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F168B5)
@@ -8099,7 +8099,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B615)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16955)
@@ -8134,7 +8134,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B61B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169F5)
@@ -8169,7 +8169,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B621)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B5D)
@@ -8204,7 +8204,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B627)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16BFD)
@@ -8239,7 +8239,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B62D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C9D)
@@ -8274,7 +8274,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B633)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D3D)
@@ -8309,7 +8309,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B639)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DDD)
@@ -8344,7 +8344,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B63F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F027C3)
@@ -8379,7 +8379,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B645)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04180)
@@ -8414,7 +8414,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B64B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160EB)
@@ -8449,7 +8449,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B651)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16195)
@@ -8484,7 +8484,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B657)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1623F)
@@ -8519,7 +8519,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B65D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163F7)
@@ -8554,7 +8554,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B663)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1677B)
@@ -8589,7 +8589,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B669)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1681B)
@@ -8624,7 +8624,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B66F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F168BB)
@@ -8659,7 +8659,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B675)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1695B)
@@ -8694,7 +8694,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B67B)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F169FB)
@@ -8729,7 +8729,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B681)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B63)
@@ -8764,7 +8764,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B687)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C03)
@@ -8799,7 +8799,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B68D)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16CA3)
@@ -8834,7 +8834,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B693)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D43)
@@ -8869,7 +8869,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B699)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DE3)
@@ -8904,7 +8904,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B69F)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F027C9)
@@ -8939,7 +8939,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6A5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F04186)
@@ -8974,7 +8974,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6AB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F160F1)
@@ -9009,7 +9009,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6B1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F1619B)
@@ -9044,7 +9044,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6B7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16245)
@@ -9079,7 +9079,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6BD)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F163FD)
@@ -9114,7 +9114,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6C3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16781)
@@ -9149,7 +9149,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6C9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16821)
@@ -9184,7 +9184,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6CF)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F168C1)
@@ -9219,7 +9219,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6D5)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16961)
@@ -9254,7 +9254,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6DB)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16A01)
@@ -9289,7 +9289,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6E1)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16B69)
@@ -9324,7 +9324,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6E7)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16C09)
@@ -9359,7 +9359,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6ED)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16CA9)
@@ -9394,7 +9394,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6F3)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16D49)
@@ -9429,7 +9429,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 5538DCEE) (tstamp 55F0B6F9)
-    (at 148.5011 105.0036)
+    (at 111.5011 130.5036)
     (descr "LED vertical 3mm")
     (tags "LED-3MM LED 3mm")
     (path /55F16DE9)
@@ -9464,7 +9464,7 @@
   )
 
   (module Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B715)
-    (at 148.5011 105.0036)
+    (at 211 117)
     (descr "24-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F06381)
@@ -9542,7 +9542,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x05 (layer F.Cu) (tedit 54EA0684) (tstamp 55F0B71E)
-    (at 148.5011 105.0036)
+    (at 47.5 39)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /55F11F9D)
@@ -9581,7 +9581,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 55F0B724)
-    (at 148.5011 105.0036)
+    (at 60 38.5)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /55F12236)
@@ -9610,7 +9610,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 55F0B72A)
-    (at 148.5011 105.0036)
+    (at 67.5 33.5)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /55F12353)
@@ -9639,7 +9639,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 55F0B730)
-    (at 148.5011 105.0036)
+    (at 100.5 79.5)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /55F10A8B)
@@ -9668,7 +9668,7 @@
   )
 
   (module Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B74C)
-    (at 148.5011 105.0036)
+    (at 87 85.5)
     (descr "24-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F055FB)
@@ -9746,7 +9746,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B758)
-    (at 148.5011 105.0036)
+    (at 183 82.5)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F2508A)
@@ -9792,7 +9792,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B764)
-    (at 148.5011 105.0036)
+    (at 183 92)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F25084)
@@ -9838,7 +9838,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B770)
-    (at 148.5011 105.0036)
+    (at 183 102)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F2504E)
@@ -9884,7 +9884,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B77C)
-    (at 148.5011 105.0036)
+    (at 183 112)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F25048)
@@ -9930,7 +9930,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B788)
-    (at 148.5011 105.0036)
+    (at 183 122)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F22DDD)
@@ -9976,7 +9976,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B794)
-    (at 148.5011 105.0036)
+    (at 183 132)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F22DD7)
@@ -10022,7 +10022,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B7A0)
-    (at 148.5011 105.0036)
+    (at 183 142)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F20D05)
@@ -10068,7 +10068,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B7AC)
-    (at 148.5011 105.0036)
+    (at 183 153)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F20AC4)
@@ -10114,7 +10114,7 @@
   )
 
   (module Housings_SOIC:SOIC-28_7.5x17.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55F0B7CC)
-    (at 148.5011 105.0036)
+    (at 97.5 43.5)
     (descr "28-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /55F03C4D)
@@ -10200,7 +10200,7 @@
   )
 
   (module Transistors_SMD:sot428 (layer F.Cu) (tedit 0) (tstamp 55F0B7D3)
-    (at 148.5011 105.0036)
+    (at 213 42)
     (descr SOT428)
     (path /55F1276A)
     (attr smd)
@@ -10234,7 +10234,7 @@
   )
 
   (module Transistors_SMD:sot428 (layer F.Cu) (tedit 0) (tstamp 55F0B7DA)
-    (at 148.5011 105.0036)
+    (at 241.5 43)
     (descr SOT428)
     (path /55F0C244)
     (attr smd)
@@ -10268,7 +10268,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54EA090C) (tstamp 55F0B7E0)
-    (at 148.5011 105.0036)
+    (at 130 23.5)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /55F16F58)
@@ -10301,7 +10301,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54EA090C) (tstamp 55F0B7E6)
-    (at 148.5011 105.0036)
+    (at 129.5 34.5)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /55F1708A)
