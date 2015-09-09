@@ -1,6 +1,6 @@
-update=mer. 09 sept. 2015 16:07:27 CEST
+update=mer. 09 sept. 2015 19:01:47 CEST
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../Librairies/Kicad
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,5 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=dsPIC33FJ128MC802
-LibName32=Carte Olinpiades 2015 - librairie de composants
+LibName31=Carte Olinpiades 2015 - librairie de composants
