@@ -3336,7 +3336,7 @@ RB7
 Text GLabel 12200 9250 2    60   Input ~ 0
 RB6
 Text GLabel 12200 7950 2    60   Input ~ 0
-RB10
+RB5
 Text GLabel 4100 4900 0    60   Input ~ 0
 RB2
 Text GLabel 4100 5000 0    60   Input ~ 0
@@ -3379,7 +3379,7 @@ NoConn ~ 3200 1700
 NoConn ~ 3200 1800
 NoConn ~ 3200 2600
 NoConn ~ 3200 2700
-NoConn ~ 3200 2900
+NoConn ~ 4500 2300
 NoConn ~ 4500 2200
 Wire Wire Line
 	8700 10200 8700 10350
