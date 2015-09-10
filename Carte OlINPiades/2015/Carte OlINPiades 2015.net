@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/larchuto/Robotronik/electronique/Carte OlINPiades/2015/Carte OlINPiades 2015.sch")
-    (date "jeu. 10 sept. 2015 00:53:53 CEST")
+    (date "jeu. 10 sept. 2015 10:59:33 CEST")
     (tool "Eeschema (2015-09-09 BZR 6175)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1715,17 +1715,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55F0C244)))
   (libparts
-    (libpart (lib device) (part CP1)
-      (description "Condensateur polarise")
-      (footprints
-        (fp CP*)
-        (fp SM*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CP1))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part C)
       (description "Condensateur non polarise")
       (footprints
@@ -1738,17 +1727,14 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistance)
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
       (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
+        (fp CP*)
+        (fp SM*))
       (fields
-        (field (name Reference) R)
-        (field (name Value) R))
+        (field (name Reference) C)
+        (field (name Value) CP1))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -1767,6 +1753,20 @@
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_2)
       (description "Symbole general de connecteur")
       (fields
