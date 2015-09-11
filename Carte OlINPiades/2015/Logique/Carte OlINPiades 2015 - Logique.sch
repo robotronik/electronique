@@ -90,25 +90,14 @@ F 3 "" H 5650 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
-U 1 1 55F0EA56
-P 6100 4350
-F 0 "C3" H 6100 4450 40  0001 L CNN
-F 1 "15pF" V 6150 4150 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6138 4200 30  0001 C CNN
-F 3 "" H 6100 4350 60  0000 C CNN
-	1    6100 4350
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR03
 U 1 1 55F10A29
-P 6350 4300
-F 0 "#PWR03" H 6350 4300 30  0001 C CNN
-F 1 "GND" H 6350 4230 30  0001 C CNN
-F 2 "" H 6350 4300 60  0000 C CNN
-F 3 "" H 6350 4300 60  0000 C CNN
-	1    6350 4300
+P 6300 4250
+F 0 "#PWR03" H 6300 4250 30  0001 C CNN
+F 1 "GND" H 6300 4180 30  0001 C CNN
+F 2 "" H 6300 4250 60  0000 C CNN
+F 3 "" H 6300 4250 60  0000 C CNN
+	1    6300 4250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -491,19 +480,19 @@ F 3 "" H 10200 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 15000 5900 2    60   Input ~ 0
-RB9
-Text GLabel 15000 6000 2    60   Input ~ 0
-RB8
-Text GLabel 15000 6100 2    60   Input ~ 0
-RB7
-Text GLabel 15000 6200 2    60   Input ~ 0
-RB6
-Text GLabel 15000 5450 2    60   Input ~ 0
 RB10
+Text GLabel 15000 6000 2    60   Input ~ 0
+RB9
+Text GLabel 15000 6100 2    60   Input ~ 0
+RB8
+Text GLabel 15000 6200 2    60   Input ~ 0
+RB7
+Text GLabel 15000 5450 2    60   Input ~ 0
+RB11
 Text GLabel 4750 4250 0    60   Input ~ 0
-RB2
-Text GLabel 4750 4350 0    60   Input ~ 0
 RB3
+Text GLabel 4750 4350 0    60   Input ~ 0
+RB2
 Text GLabel 4750 4450 0    60   Input ~ 0
 RA2
 Text GLabel 5650 4450 2    60   Input ~ 0
@@ -1005,7 +994,7 @@ F 3 "" H 14550 6400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 15000 6600 2    60   Input ~ 0
-RB11
+RB6
 Wire Wire Line
 	12100 7400 12100 7550
 Wire Wire Line
@@ -1016,15 +1005,8 @@ Wire Wire Line
 	14100 6750 14100 8150
 Wire Wire Line
 	2050 1200 2050 1600
-Connection ~ 6300 4300
-Wire Wire Line
-	6300 4300 6350 4300
-Wire Wire Line
-	6300 4250 6300 4350
 Wire Wire Line
 	6150 4250 6300 4250
-Wire Wire Line
-	5900 4350 5650 4350
 Wire Wire Line
 	5650 4550 8950 4550
 Wire Wire Line
@@ -1410,4 +1392,5 @@ F 3 "" H 5200 6800 60  0000 C CNN
 	1    5200 6600
 	0    1    -1   0   
 $EndComp
+NoConn ~ 5650 4350
 $EndSCHEMATC
