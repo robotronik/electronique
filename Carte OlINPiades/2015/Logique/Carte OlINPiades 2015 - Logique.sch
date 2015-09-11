@@ -531,7 +531,7 @@ NoConn ~ 3200 1700
 NoConn ~ 3200 1800
 NoConn ~ 3200 2600
 NoConn ~ 3200 2700
-NoConn ~ 3200 2900
+NoConn ~ 4500 2200
 Text GLabel 1650 1700 0    60   Input ~ 0
 PGC
 Text GLabel 1750 1700 2    60   Input ~ 0
@@ -994,7 +994,7 @@ F 3 "" H 14550 6400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 15000 6600 2    60   Input ~ 0
-RB11
+RB5
 Wire Wire Line
 	12100 7400 12100 7550
 Wire Wire Line
