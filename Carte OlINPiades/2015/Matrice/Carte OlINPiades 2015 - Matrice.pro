@@ -1,4 +1,4 @@
-update=ven. 11 sept. 2015 16:07:17 CEST
+update=ven. 11 sept. 2015 16:30:28 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../2015
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=Carte Olinpiades 2015 - librairie de composants
