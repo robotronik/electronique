@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Carte OlINPiades 2015 - Logique-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Carte Olinpiades 2015 - librairie de composants
+LIBS:Carte OlINPiades 2015 - Logique-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1004,28 +1006,6 @@ F 3 "" H 14550 6400 60  0000 C CNN
 $EndComp
 Text GLabel 15000 6600 2    60   Input ~ 0
 RB11
-$Comp
-L PinHeader H?
-U 1 1 55F306BB
-P 10600 6200
-F 0 "H?" V 10450 5900 60  0000 C CNN
-F 1 "PinHeader" V 10450 6300 60  0000 C CNN
-F 2 "" H 10600 6400 60  0000 C CNN
-F 3 "" H 10600 6400 60  0000 C CNN
-	1    10600 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L PinHeader H?
-U 1 1 55F308A5
-P 5200 6600
-F 0 "H?" V 5050 6300 60  0000 C CNN
-F 1 "PinHeader" V 5050 6700 60  0000 C CNN
-F 2 "" H 5200 6800 60  0000 C CNN
-F 3 "" H 5200 6800 60  0000 C CNN
-	1    5200 6600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	12100 7400 12100 7550
 Wire Wire Line
@@ -1408,4 +1388,26 @@ Wire Wire Line
 	5950 6200 8950 6200
 Wire Wire Line
 	8950 6200 8950 4550
+$Comp
+L PinHeader H?
+U 1 1 55F2EC70
+P 10600 6200
+F 0 "H?" V 10450 5900 60  0000 C CNN
+F 1 "PinHeader" V 10450 6300 60  0000 C CNN
+F 2 "" H 10600 6400 60  0000 C CNN
+F 3 "" H 10600 6400 60  0000 C CNN
+	1    10600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PinHeader H?
+U 1 1 55F2ED05
+P 5200 6600
+F 0 "H?" V 5050 6300 60  0000 C CNN
+F 1 "PinHeader" V 5050 6700 60  0000 C CNN
+F 2 "" H 5200 6800 60  0000 C CNN
+F 3 "" H 5200 6800 60  0000 C CNN
+	1    5200 6600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
