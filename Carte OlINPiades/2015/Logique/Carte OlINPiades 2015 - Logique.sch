@@ -480,19 +480,19 @@ F 3 "" H 10200 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 15000 5900 2    60   Input ~ 0
-RB9
-Text GLabel 15000 6000 2    60   Input ~ 0
-RB8
-Text GLabel 15000 6100 2    60   Input ~ 0
-RB7
-Text GLabel 15000 6200 2    60   Input ~ 0
-RB6
-Text GLabel 15000 5450 2    60   Input ~ 0
 RB10
+Text GLabel 15000 6000 2    60   Input ~ 0
+RB9
+Text GLabel 15000 6100 2    60   Input ~ 0
+RB8
+Text GLabel 15000 6200 2    60   Input ~ 0
+RB7
+Text GLabel 15000 5450 2    60   Input ~ 0
+RB11
 Text GLabel 4750 4250 0    60   Input ~ 0
-RB2
-Text GLabel 4750 4350 0    60   Input ~ 0
 RB3
+Text GLabel 4750 4350 0    60   Input ~ 0
+RB2
 Text GLabel 4750 4450 0    60   Input ~ 0
 RA2
 Text GLabel 5650 4450 2    60   Input ~ 0
@@ -531,7 +531,7 @@ NoConn ~ 3200 1700
 NoConn ~ 3200 1800
 NoConn ~ 3200 2600
 NoConn ~ 3200 2700
-NoConn ~ 4500 2200
+NoConn ~ 3200 2900
 Text GLabel 1650 1700 0    60   Input ~ 0
 PGC
 Text GLabel 1750 1700 2    60   Input ~ 0
@@ -994,7 +994,7 @@ F 3 "" H 14550 6400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 15000 6600 2    60   Input ~ 0
-RB5
+RB6
 Wire Wire Line
 	12100 7400 12100 7550
 Wire Wire Line
