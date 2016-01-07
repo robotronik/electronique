@@ -1,4 +1,4 @@
-update=jeu. 07 janv. 2016 13:32:26 CET
+update=jeu. 07 janv. 2016 16:58:00 CET
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=lib
+LibDir=../../Librairies
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -84,4 +84,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=lib/lm2678
+LibName31=Kicad/lm2678
+LibName32=Kicad/kmig1240
