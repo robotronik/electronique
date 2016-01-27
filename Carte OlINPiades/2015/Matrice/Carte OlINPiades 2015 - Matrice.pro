@@ -1,4 +1,4 @@
-update=ven. 11 sept. 2015 16:30:28 CEST
+update=mer. 27 janv. 2016 08:50:48 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../2015
+LibDir=../../../Librairies/Kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Carte Olinpiades 2015 - librairie de composants
+LibName30=/run/media/haz/DATA/Alexis/robotronik/electronique/Librairies/Kicad/Carte Olinpiades 2015 - librairie de composants
+LibName31=/run/media/haz/DATA/Alexis/robotronik/electronique/Librairies/Kicad/dsPIC

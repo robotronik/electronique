@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Carte Olinpiades 2015 - librairie de composants
+LIBS:dsPIC
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2860,10 +2861,10 @@ F 3 "" H 8500 10950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PinHeader H?
+L PinHeader H1
 U 1 1 55F2EBA9
 P 4450 3950
-F 0 "H?" V 4300 3650 60  0000 C CNN
+F 0 "H1" V 4300 3650 60  0000 C CNN
 F 1 "PinHeader" V 4300 4050 60  0000 C CNN
 F 2 "" H 4450 4150 60  0000 C CNN
 F 3 "" H 4450 4150 60  0000 C CNN
@@ -2871,10 +2872,10 @@ F 3 "" H 4450 4150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PinHeader H?
+L PinHeader H2
 U 1 1 55F32EF0
 P 9800 8700
-F 0 "H?" V 9650 8400 60  0000 C CNN
+F 0 "H2" V 9650 8400 60  0000 C CNN
 F 1 "PinHeader" V 9650 8800 60  0000 C CNN
 F 2 "" H 9800 8900 60  0000 C CNN
 F 3 "" H 9800 8900 60  0000 C CNN
