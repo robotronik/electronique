@@ -3,7 +3,7 @@
   (general
     (links 105)
     (no_connects 0)
-    (area 95.389999 76.404999 198.410001 147.040001)
+    (area 82.17 62.55 209.09 156.45)
     (thickness 1.6)
     (drawings 37)
     (tracks 504)
@@ -1910,7 +1910,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 0) (tstamp 554C9528)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 56A874E7) (tstamp 554C9528)
     (at 166.25 90.5)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -1918,7 +1918,7 @@
     (fp_text reference U100 (at 0 -5.1) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 7905_CORRIGE (at 0 -3.1) (layer F.Fab)
+    (fp_text value 7805 (at 0 -3.1) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))

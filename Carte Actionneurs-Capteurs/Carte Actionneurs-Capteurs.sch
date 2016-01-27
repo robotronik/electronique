@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Carte Actionneurs-Capteurs-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Carte Actionneurs-Capteurs-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -53,7 +51,7 @@ F 1 "CONN_25X2" V 1950 6050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x25" H 1950 6050 60  0001 C CNN
 F 3 "" H 1950 6050 60  0000 C CNN
 	1    1950 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 2950 5300 0    60   ~ 0
 Digital I/O
@@ -70,7 +68,7 @@ F 1 "GND" H 2200 4680 30  0001 C CNN
 F 2 "" H 2200 4750 60  0000 C CNN
 F 3 "" H 2200 4750 60  0000 C CNN
 	1    2200 4750
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR02
@@ -81,7 +79,7 @@ F 1 "GND" H 1700 4680 30  0001 C CNN
 F 2 "" H 1700 4750 60  0000 C CNN
 F 3 "" H 1700 4750 60  0000 C CNN
 	1    1700 4750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR03
@@ -92,7 +90,7 @@ F 1 "GND" H 1700 5930 30  0001 C CNN
 F 2 "" H 1700 6000 60  0000 C CNN
 F 3 "" H 1700 6000 60  0000 C CNN
 	1    1700 6000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR04
@@ -103,7 +101,7 @@ F 1 "GND" H 1700 7280 30  0001 C CNN
 F 2 "" H 1700 7350 60  0000 C CNN
 F 3 "" H 1700 7350 60  0000 C CNN
 	1    1700 7350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
@@ -114,7 +112,7 @@ F 1 "GND" H 2200 7280 30  0001 C CNN
 F 2 "" H 2200 7350 60  0000 C CNN
 F 3 "" H 2200 7350 60  0000 C CNN
 	1    2200 7350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X02 P3
@@ -125,7 +123,7 @@ F 1 "CONN_2" V 1850 1100 40  0000 C CNN
 F 2 "Connect:bornier2" H 1800 1100 60  0001 C CNN
 F 3 "" H 1800 1100 60  0000 C CNN
 	1    1800 1100
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR06
@@ -136,7 +134,7 @@ F 1 "+5V" H 1200 1290 30  0000 C CNN
 F 2 "" H 1200 1200 60  0000 C CNN
 F 3 "" H 1200 1200 60  0000 C CNN
 	1    1200 1200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
@@ -147,7 +145,7 @@ F 1 "GND" H 2100 1380 30  0001 C CNN
 F 2 "" H 2100 1450 60  0000 C CNN
 F 3 "" H 2100 1450 60  0000 C CNN
 	1    2100 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED D1
@@ -158,7 +156,7 @@ F 1 "LED" H 1350 1500 50  0000 C CNN
 F 2 "LEDs:LED-3MM" H 1350 1600 60  0001 C CNN
 F 3 "" H 1350 1600 60  0000 C CNN
 	1    1350 1600
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R1
@@ -169,7 +167,7 @@ F 1 "R" V 1507 1801 40  0000 C CNN
 F 2 "Discret:R3" V 1430 1800 30  0001 C CNN
 F 3 "" H 1500 1800 30  0000 C CNN
 	1    1500 1800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR08
@@ -180,7 +178,7 @@ F 1 "GND" H 1650 1780 30  0001 C CNN
 F 2 "" H 1650 1850 60  0000 C CNN
 F 3 "" H 1650 1850 60  0000 C CNN
 	1    1650 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 1450 2200 0    60   ~ 0
 Bornier Alim
@@ -193,7 +191,7 @@ F 1 "CONN_01X03" V 8050 1450 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 1450 60  0001 C CNN
 F 3 "" H 8000 1450 60  0000 C CNN
 	1    8000 1450
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K22
@@ -204,7 +202,7 @@ F 1 "CONN_01X03" V 8050 2000 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 2000 60  0001 C CNN
 F 3 "" H 8000 2000 60  0000 C CNN
 	1    8000 2000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K23
@@ -215,7 +213,7 @@ F 1 "CONN_01X03" V 8050 2600 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 2600 60  0001 C CNN
 F 3 "" H 8000 2600 60  0000 C CNN
 	1    8000 2600
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K24
@@ -226,7 +224,7 @@ F 1 "CONN_01X03" V 8050 3150 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 3150 60  0001 C CNN
 F 3 "" H 8000 3150 60  0000 C CNN
 	1    8000 3150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K25
@@ -237,7 +235,7 @@ F 1 "CONN_01X03" V 8050 3700 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 3700 60  0001 C CNN
 F 3 "" H 8000 3700 60  0000 C CNN
 	1    8000 3700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K26
@@ -248,7 +246,7 @@ F 1 "CONN_01X03" V 8050 4250 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 4250 60  0001 C CNN
 F 3 "" H 8000 4250 60  0000 C CNN
 	1    8000 4250
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K27
@@ -259,7 +257,7 @@ F 1 "CONN_01X03" V 8050 4850 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 4850 60  0001 C CNN
 F 3 "" H 8000 4850 60  0000 C CNN
 	1    8000 4850
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K28
@@ -270,7 +268,7 @@ F 1 "CONN_01X03" V 8050 5400 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 5400 60  0001 C CNN
 F 3 "" H 8000 5400 60  0000 C CNN
 	1    8000 5400
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K29
@@ -281,7 +279,7 @@ F 1 "CONN_01X03" V 8050 6000 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 6000 60  0001 C CNN
 F 3 "" H 8000 6000 60  0000 C CNN
 	1    8000 6000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR09
@@ -292,7 +290,7 @@ F 1 "+5V" V 8050 1300 30  0000 C CNN
 F 2 "" H 8000 1250 60  0000 C CNN
 F 3 "" H 8000 1250 60  0000 C CNN
 	1    8000 1250
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR010
@@ -303,7 +301,7 @@ F 1 "GND" H 8100 1180 30  0001 C CNN
 F 2 "" H 8100 1250 60  0000 C CNN
 F 3 "" H 8100 1250 60  0000 C CNN
 	1    8100 1250
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K1
@@ -314,7 +312,7 @@ F 1 "CONN_01X03" V 4550 1450 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 1450 60  0001 C CNN
 F 3 "" H 4500 1450 60  0000 C CNN
 	1    4500 1450
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K2
@@ -325,7 +323,7 @@ F 1 "CONN_01X03" V 4550 2000 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 2000 60  0001 C CNN
 F 3 "" H 4500 2000 60  0000 C CNN
 	1    4500 2000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K3
@@ -336,7 +334,7 @@ F 1 "CONN_01X03" V 4550 2600 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 2600 60  0001 C CNN
 F 3 "" H 4500 2600 60  0000 C CNN
 	1    4500 2600
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K4
@@ -347,7 +345,7 @@ F 1 "CONN_01X03" V 4550 3150 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 3150 60  0001 C CNN
 F 3 "" H 4500 3150 60  0000 C CNN
 	1    4500 3150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K5
@@ -358,7 +356,7 @@ F 1 "CONN_01X03" V 4550 3700 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 3700 60  0001 C CNN
 F 3 "" H 4500 3700 60  0000 C CNN
 	1    4500 3700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K6
@@ -369,7 +367,7 @@ F 1 "CONN_01X03" V 4550 4250 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 4250 60  0001 C CNN
 F 3 "" H 4500 4250 60  0000 C CNN
 	1    4500 4250
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K7
@@ -380,7 +378,7 @@ F 1 "CONN_01X03" V 4550 4850 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 4850 60  0001 C CNN
 F 3 "" H 4500 4850 60  0000 C CNN
 	1    4500 4850
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K8
@@ -391,7 +389,7 @@ F 1 "CONN_01X03" V 4550 5400 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 5400 60  0001 C CNN
 F 3 "" H 4500 5400 60  0000 C CNN
 	1    4500 5400
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K9
@@ -402,7 +400,7 @@ F 1 "CONN_01X03" V 4550 6000 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 6000 60  0001 C CNN
 F 3 "" H 4500 6000 60  0000 C CNN
 	1    4500 6000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K10
@@ -413,7 +411,7 @@ F 1 "CONN_01X03" V 4550 6600 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4500 6600 60  0001 C CNN
 F 3 "" H 4500 6600 60  0000 C CNN
 	1    4500 6600
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X01 P8
@@ -424,7 +422,7 @@ F 1 "CONN_1" H 4500 1105 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4500 1050 60  0001 C CNN
 F 3 "" H 4500 1050 60  0000 C CNN
 	1    4500 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X01 P9
@@ -435,7 +433,7 @@ F 1 "CONN_1" H 4600 1105 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4600 1050 60  0001 C CNN
 F 3 "" H 4600 1050 60  0000 C CNN
 	1    4600 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text GLabel 4500 1250 0    60   Input ~ 0
 PWR_ADC_1
@@ -450,7 +448,7 @@ F 1 "CONN_01X03" V 6350 1450 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 1450 60  0001 C CNN
 F 3 "" H 6300 1450 60  0000 C CNN
 	1    6300 1450
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K12
@@ -461,7 +459,7 @@ F 1 "CONN_01X03" V 6350 2000 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 2000 60  0001 C CNN
 F 3 "" H 6300 2000 60  0000 C CNN
 	1    6300 2000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K13
@@ -472,7 +470,7 @@ F 1 "CONN_01X03" V 6350 2600 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 2600 60  0001 C CNN
 F 3 "" H 6300 2600 60  0000 C CNN
 	1    6300 2600
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K14
@@ -483,7 +481,7 @@ F 1 "CONN_01X03" V 6350 3150 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 3150 60  0001 C CNN
 F 3 "" H 6300 3150 60  0000 C CNN
 	1    6300 3150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K15
@@ -494,7 +492,7 @@ F 1 "CONN_01X03" V 6350 3700 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 3700 60  0001 C CNN
 F 3 "" H 6300 3700 60  0000 C CNN
 	1    6300 3700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K16
@@ -505,7 +503,7 @@ F 1 "CONN_01X03" V 6350 4250 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 4250 60  0001 C CNN
 F 3 "" H 6300 4250 60  0000 C CNN
 	1    6300 4250
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K17
@@ -516,7 +514,7 @@ F 1 "CONN_01X03" V 6350 4850 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 4850 60  0001 C CNN
 F 3 "" H 6300 4850 60  0000 C CNN
 	1    6300 4850
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K18
@@ -527,7 +525,7 @@ F 1 "CONN_01X03" V 6350 5400 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 5400 60  0001 C CNN
 F 3 "" H 6300 5400 60  0000 C CNN
 	1    6300 5400
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K19
@@ -538,7 +536,7 @@ F 1 "CONN_01X03" V 6350 6000 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 6000 60  0001 C CNN
 F 3 "" H 6300 6000 60  0000 C CNN
 	1    6300 6000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 K20
@@ -549,7 +547,7 @@ F 1 "CONN_01X03" V 6350 6600 40  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6300 6600 60  0001 C CNN
 F 3 "" H 6300 6600 60  0000 C CNN
 	1    6300 6600
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X01 P10
@@ -560,7 +558,7 @@ F 1 "CONN_1" H 6300 1105 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 6300 1050 60  0001 C CNN
 F 3 "" H 6300 1050 60  0000 C CNN
 	1    6300 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X01 P11
@@ -571,7 +569,7 @@ F 1 "CONN_1" H 6400 1105 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 6400 1050 60  0001 C CNN
 F 3 "" H 6400 1050 60  0000 C CNN
 	1    6400 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text GLabel 6300 1250 0    60   Input ~ 0
 PWR_IO_1
@@ -592,7 +590,7 @@ F 1 "+5V" H 1600 2940 30  0000 C CNN
 F 2 "" H 1600 2850 60  0000 C CNN
 F 3 "" H 1600 2850 60  0000 C CNN
 	1    1600 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 1450 2850 3    60   Input ~ 0
 PWR_IO_3
@@ -607,7 +605,7 @@ F 1 "GND" H 2200 2830 30  0001 C CNN
 F 2 "" H 2200 2900 60  0000 C CNN
 F 3 "" H 2200 2900 60  0000 C CNN
 	1    2200 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 1450 3650 3    60   Input ~ 0
 PWR_ADC_3
@@ -770,7 +768,7 @@ F 1 "R" V 10107 1351 40  0000 C CNN
 F 2 "Discret:R1" V 10030 1350 30  0001 C CNN
 F 3 "" H 10100 1350 30  0000 C CNN
 	1    10100 1350
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R4
@@ -781,7 +779,7 @@ F 1 "R" V 10107 1501 40  0000 C CNN
 F 2 "Discret:R1" V 10030 1500 30  0001 C CNN
 F 3 "" H 10100 1500 30  0000 C CNN
 	1    10100 1500
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R5
@@ -792,7 +790,7 @@ F 1 "R" V 10107 1651 40  0000 C CNN
 F 2 "Discret:R1" V 10030 1650 30  0001 C CNN
 F 3 "" H 10100 1650 30  0000 C CNN
 	1    10100 1650
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R6
@@ -803,7 +801,7 @@ F 1 "R" V 10107 1801 40  0000 C CNN
 F 2 "Discret:R1" V 10030 1800 30  0001 C CNN
 F 3 "" H 10100 1800 30  0000 C CNN
 	1    10100 1800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R7
@@ -814,7 +812,7 @@ F 1 "R" V 10107 1951 40  0000 C CNN
 F 2 "Discret:R1" V 10030 1950 30  0001 C CNN
 F 3 "" H 10100 1950 30  0000 C CNN
 	1    10100 1950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R8
@@ -825,7 +823,7 @@ F 1 "R" V 10107 2101 40  0000 C CNN
 F 2 "Discret:R1" V 10030 2100 30  0001 C CNN
 F 3 "" H 10100 2100 30  0000 C CNN
 	1    10100 2100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R9
@@ -836,7 +834,7 @@ F 1 "R" V 10107 2251 40  0000 C CNN
 F 2 "Discret:R1" V 10030 2250 30  0001 C CNN
 F 3 "" H 10100 2250 30  0000 C CNN
 	1    10100 2250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R10
@@ -847,7 +845,7 @@ F 1 "R" V 10107 2401 40  0000 C CNN
 F 2 "Discret:R1" V 10030 2400 30  0001 C CNN
 F 3 "" H 10100 2400 30  0000 C CNN
 	1    10100 2400
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R11
@@ -858,7 +856,7 @@ F 1 "R" V 10107 2551 40  0000 C CNN
 F 2 "Discret:R1" V 10030 2550 30  0001 C CNN
 F 3 "" H 10100 2550 30  0000 C CNN
 	1    10100 2550
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R12
@@ -869,7 +867,7 @@ F 1 "R" V 10107 2701 40  0000 C CNN
 F 2 "Discret:R1" V 10030 2700 30  0001 C CNN
 F 3 "" H 10100 2700 30  0000 C CNN
 	1    10100 2700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R13
@@ -880,7 +878,7 @@ F 1 "R" V 10107 2851 40  0000 C CNN
 F 2 "Discret:R1" V 10030 2850 30  0001 C CNN
 F 3 "" H 10100 2850 30  0000 C CNN
 	1    10100 2850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R14
@@ -891,7 +889,7 @@ F 1 "R" V 10107 3001 40  0000 C CNN
 F 2 "Discret:R1" V 10030 3000 30  0001 C CNN
 F 3 "" H 10100 3000 30  0000 C CNN
 	1    10100 3000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R15
@@ -902,7 +900,7 @@ F 1 "R" V 10107 3151 40  0000 C CNN
 F 2 "Discret:R1" V 10030 3150 30  0001 C CNN
 F 3 "" H 10100 3150 30  0000 C CNN
 	1    10100 3150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R16
@@ -913,7 +911,7 @@ F 1 "R" V 10107 3301 40  0000 C CNN
 F 2 "Discret:R1" V 10030 3300 30  0001 C CNN
 F 3 "" H 10100 3300 30  0000 C CNN
 	1    10100 3300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R17
@@ -924,7 +922,7 @@ F 1 "R" V 10107 3451 40  0000 C CNN
 F 2 "Discret:R1" V 10030 3450 30  0001 C CNN
 F 3 "" H 10100 3450 30  0000 C CNN
 	1    10100 3450
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R18
@@ -935,7 +933,7 @@ F 1 "R" V 10107 3601 40  0000 C CNN
 F 2 "Discret:R1" V 10030 3600 30  0001 C CNN
 F 3 "" H 10100 3600 30  0000 C CNN
 	1    10100 3600
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R19
@@ -946,7 +944,7 @@ F 1 "R" V 10107 3751 40  0000 C CNN
 F 2 "Discret:R1" V 10030 3750 30  0001 C CNN
 F 3 "" H 10100 3750 30  0000 C CNN
 	1    10100 3750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R20
@@ -957,7 +955,7 @@ F 1 "R" V 10107 3901 40  0000 C CNN
 F 2 "Discret:R1" V 10030 3900 30  0001 C CNN
 F 3 "" H 10100 3900 30  0000 C CNN
 	1    10100 3900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R21
@@ -968,7 +966,7 @@ F 1 "R" V 10107 4051 40  0000 C CNN
 F 2 "Discret:R1" V 10030 4050 30  0001 C CNN
 F 3 "" H 10100 4050 30  0000 C CNN
 	1    10100 4050
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R22
@@ -979,7 +977,7 @@ F 1 "R" V 10107 4201 40  0000 C CNN
 F 2 "Discret:R1" V 10030 4200 30  0001 C CNN
 F 3 "" H 10100 4200 30  0000 C CNN
 	1    10100 4200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Notes 9150 750  0    60   ~ 0
 Pull Up/Down optionnel
@@ -992,7 +990,7 @@ F 1 "CONN_1" H 1300 2705 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1300 2650 60  0001 C CNN
 F 3 "" H 1300 2650 60  0000 C CNN
 	1    1300 2650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X01 P4
@@ -1003,7 +1001,7 @@ F 1 "CONN_1" H 1850 2705 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1850 2650 60  0001 C CNN
 F 3 "" H 1850 2650 60  0000 C CNN
 	1    1850 2650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR013
@@ -1014,7 +1012,7 @@ F 1 "+5V" H 1600 3740 30  0000 C CNN
 F 2 "" H 1600 3650 60  0000 C CNN
 F 3 "" H 1600 3650 60  0000 C CNN
 	1    1600 3650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR014
@@ -1025,7 +1023,7 @@ F 1 "GND" H 2200 3630 30  0001 C CNN
 F 2 "" H 2200 3700 60  0000 C CNN
 F 3 "" H 2200 3700 60  0000 C CNN
 	1    2200 3700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X01 P2
@@ -1036,7 +1034,7 @@ F 1 "CONN_1" H 1300 3505 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1300 3450 60  0001 C CNN
 F 3 "" H 1300 3450 60  0000 C CNN
 	1    1300 3450
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X01 P5
@@ -1047,7 +1045,7 @@ F 1 "CONN_1" H 1850 3505 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1850 3450 60  0001 C CNN
 F 3 "" H 1850 3450 60  0000 C CNN
 	1    1850 3450
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text Notes 1000 2550 3    60   ~ 0
 Bloc de choix des pin de puissance
@@ -1072,7 +1070,7 @@ F 1 "GND" H 9350 5130 30  0001 C CNN
 F 2 "" H 9350 5200 60  0000 C CNN
 F 3 "" H 9350 5200 60  0000 C CNN
 	1    9350 5200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 9550 4850 0    60   ~ 0
 (Pololu MC33926)
@@ -1085,7 +1083,7 @@ F 1 "CONN_12" V 9900 5650 60  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 9850 5650 60  0001 C CNN
 F 3 "" H 9850 5650 60  0000 C CNN
 	1    9850 5650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR016
@@ -1096,7 +1094,7 @@ F 1 "+5V" H 9550 5390 30  0000 C CNN
 F 2 "" H 9550 5300 60  0000 C CNN
 F 3 "" H 9550 5300 60  0000 C CNN
 	1    9550 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR017
@@ -1107,7 +1105,7 @@ F 1 "GND" H 9350 5480 30  0001 C CNN
 F 2 "" H 9350 5550 60  0000 C CNN
 F 3 "" H 9350 5550 60  0000 C CNN
 	1    9350 5550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR018
@@ -1118,7 +1116,7 @@ F 1 "+5V" H 9550 5490 30  0000 C CNN
 F 2 "" H 9550 5400 60  0000 C CNN
 F 3 "" H 9550 5400 60  0000 C CNN
 	1    9550 5400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR019
@@ -1129,7 +1127,7 @@ F 1 "GND" H 9350 5680 30  0001 C CNN
 F 2 "" H 9350 5750 60  0000 C CNN
 F 3 "" H 9350 5750 60  0000 C CNN
 	1    9350 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR020
@@ -1140,7 +1138,7 @@ F 1 "+5V" H 9550 6090 30  0000 C CNN
 F 2 "" H 9550 6000 60  0000 C CNN
 F 3 "" H 9550 6000 60  0000 C CNN
 	1    9550 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR021
@@ -1151,7 +1149,7 @@ F 1 "GND" H 10350 5130 30  0001 C CNN
 F 2 "" H 10350 5200 60  0000 C CNN
 F 3 "" H 10350 5200 60  0000 C CNN
 	1    10350 5200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X12 P13
@@ -1162,7 +1160,7 @@ F 1 "CONN_12" V 10900 5650 60  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 10850 5650 60  0001 C CNN
 F 3 "" H 10850 5650 60  0000 C CNN
 	1    10850 5650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR022
@@ -1173,7 +1171,7 @@ F 1 "+5V" H 10550 5390 30  0000 C CNN
 F 2 "" H 10550 5300 60  0000 C CNN
 F 3 "" H 10550 5300 60  0000 C CNN
 	1    10550 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR023
@@ -1184,7 +1182,7 @@ F 1 "GND" H 10350 5480 30  0001 C CNN
 F 2 "" H 10350 5550 60  0000 C CNN
 F 3 "" H 10350 5550 60  0000 C CNN
 	1    10350 5550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR024
@@ -1195,7 +1193,7 @@ F 1 "+5V" H 10550 5490 30  0000 C CNN
 F 2 "" H 10550 5400 60  0000 C CNN
 F 3 "" H 10550 5400 60  0000 C CNN
 	1    10550 5400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR025
@@ -1206,7 +1204,7 @@ F 1 "GND" H 10350 5680 30  0001 C CNN
 F 2 "" H 10350 5750 60  0000 C CNN
 F 3 "" H 10350 5750 60  0000 C CNN
 	1    10350 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR026
@@ -1217,7 +1215,7 @@ F 1 "+5V" H 10550 6090 30  0000 C CNN
 F 2 "" H 10550 6000 60  0000 C CNN
 F 3 "" H 10550 6000 60  0000 C CNN
 	1    10550 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR027
@@ -1228,7 +1226,7 @@ F 1 "+5V" H 2950 1790 30  0000 C CNN
 F 2 "" H 2950 1700 60  0000 C CNN
 F 3 "" H 2950 1700 60  0000 C CNN
 	1    2950 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR028
@@ -1239,7 +1237,7 @@ F 1 "+5V" H 3250 1790 30  0000 C CNN
 F 2 "" H 3250 1700 60  0000 C CNN
 F 3 "" H 3250 1700 60  0000 C CNN
 	1    3250 1700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R2
@@ -1250,7 +1248,7 @@ F 1 "R" V 3107 1701 40  0000 C CNN
 F 2 "Discret:R3" V 3030 1700 30  0001 C CNN
 F 3 "" H 3100 1700 30  0000 C CNN
 	1    3100 1700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L +5V #PWR029
@@ -1261,7 +1259,7 @@ F 1 "+5V" H 2950 1990 30  0000 C CNN
 F 2 "" H 2950 1900 60  0000 C CNN
 F 3 "" H 2950 1900 60  0000 C CNN
 	1    2950 1900
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR030
@@ -1272,7 +1270,7 @@ F 1 "+5V" H 3250 1990 30  0000 C CNN
 F 2 "" H 3250 1900 60  0000 C CNN
 F 3 "" H 3250 1900 60  0000 C CNN
 	1    3250 1900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R23
@@ -1283,7 +1281,7 @@ F 1 "R" V 3107 1901 40  0000 C CNN
 F 2 "Discret:R3" V 3030 1900 30  0001 C CNN
 F 3 "" H 3100 1900 30  0000 C CNN
 	1    3100 1900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R24
@@ -1294,7 +1292,7 @@ F 1 "R" V 3107 2151 40  0000 C CNN
 F 2 "Discret:R3" V 3030 2150 30  0001 C CNN
 F 3 "" H 3100 2150 30  0000 C CNN
 	1    3100 2150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text GLabel 3250 2150 2    60   Input ~ 0
 IO11
@@ -1351,7 +1349,7 @@ Wire Wire Line
 Wire Notes Line
 	1000 750  1000 2050
 Wire Notes Line
-	2450 2050 2450 750
+	2450 2050 2450 750 
 Wire Wire Line
 	8000 1250 8000 6200
 Connection ~ 8000 1650
@@ -1423,27 +1421,27 @@ Connection ~ 6400 6200
 Connection ~ 6300 6800
 Connection ~ 6400 6800
 Wire Notes Line
-	7350 800  8600 800
+	7350 800  8600 800 
 Wire Notes Line
 	8600 800  8600 6450
 Wire Notes Line
 	8600 6450 7350 6450
 Wire Notes Line
-	5700 800  6950 800
+	5700 800  6950 800 
 Wire Notes Line
 	6950 800  6950 7200
 Wire Notes Line
 	6950 7200 5700 7200
 Wire Notes Line
-	5700 7200 5700 800
+	5700 7200 5700 800 
 Wire Notes Line
-	3800 800  5250 800
+	3800 800  5250 800 
 Wire Notes Line
 	5250 800  5250 7150
 Wire Notes Line
 	5250 7150 3800 7150
 Wire Notes Line
-	3800 7150 3800 800
+	3800 7150 3800 800 
 Wire Wire Line
 	2200 2850 2200 2900
 Wire Wire Line
@@ -1561,13 +1559,13 @@ Connection ~ 10500 3900
 Wire Wire Line
 	10300 1100 10300 4050
 Wire Notes Line
-	9100 850  11150 850
+	9100 850  11150 850 
 Wire Notes Line
 	11150 850  11150 4500
 Wire Notes Line
 	11150 4500 9100 4500
 Wire Notes Line
-	9100 4500 9100 850
+	9100 4500 9100 850 
 Wire Wire Line
 	1600 2850 1300 2850
 Wire Wire Line
@@ -1631,7 +1629,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 6000 10550 6000
 Wire Notes Line
-	2450 750  1000 750
+	2450 750  1000 750 
 Wire Notes Line
 	1000 2050 2450 2050
 Wire Notes Line
@@ -1643,7 +1641,7 @@ Wire Notes Line
 Wire Notes Line
 	2600 2350 3600 2350
 Wire Notes Line
-	7350 6450 7350 800
+	7350 6450 7350 800 
 Wire Wire Line
 	2200 6650 2200 7350
 Connection ~ 2200 6750
@@ -1663,4 +1661,12 @@ Wire Wire Line
 	1700 4850 1700 4750
 Wire Wire Line
 	1300 3650 1600 3650
+NoConn ~ 10650 5100
+NoConn ~ 9650 5100
+NoConn ~ 10650 5800
+NoConn ~ 10650 5900
+NoConn ~ 10650 6100
+NoConn ~ 9650 5800
+NoConn ~ 9650 5900
+NoConn ~ 9650 6100
 $EndSCHEMATC
