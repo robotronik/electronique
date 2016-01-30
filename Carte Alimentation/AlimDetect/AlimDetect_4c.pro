@@ -1,6 +1,6 @@
-update=lun. 18 janv. 2016 11:28:32 CET
+update=sam. 30 janv. 2016 14:12:50 CET
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -82,3 +82,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=Kicad/lm2678
 LibName31=Kicad/kmig1240
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
