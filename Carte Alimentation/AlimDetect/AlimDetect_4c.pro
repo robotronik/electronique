@@ -1,4 +1,4 @@
-update=sam. 30 janv. 2016 14:12:50 CET
+update=jeu. 04 févr. 2016 17:06:25 CET
 version=1
 last_client=kicad
 [general]
@@ -47,6 +47,16 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=/run/media/haz/DATA/Alexis/robotronik/electronique/Librairies/Kicad/w_to
 LibName18=/run/media/haz/DATA/Alexis/robotronik/electronique/Librairies/Kicad/buzz
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../Librairies
@@ -82,13 +92,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=Kicad/lm2678
 LibName31=Kicad/kmig1240
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName32=Kicad/regul_correctpin
