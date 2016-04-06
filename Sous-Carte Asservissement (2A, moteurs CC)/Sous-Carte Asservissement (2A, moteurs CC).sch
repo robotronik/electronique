@@ -379,10 +379,6 @@ Text GLabel 4550 2550 0    60   Input ~ 0
 TIM5_CH2
 Text GLabel 4550 2650 0    60   Input ~ 0
 TIM5_CH4
-Text GLabel 5550 2550 2    60   Input ~ 0
-TIM5_CH1
-Text GLabel 5550 2650 2    60   Input ~ 0
-TIM5_CH3
 $Comp
 L CONN_01X04 P4
 U 1 1 5704CB58
@@ -538,8 +534,6 @@ NoConn ~ 4550 3850
 NoConn ~ 4550 3950
 NoConn ~ 4550 4050
 NoConn ~ 4550 4150
-NoConn ~ 4550 4250
-NoConn ~ 4550 4350
 NoConn ~ 5550 2950
 NoConn ~ 5550 3050
 NoConn ~ 5550 3150
@@ -575,12 +569,20 @@ F 3 "" H 5700 1450 50  0000 C CNN
 $EndComp
 NoConn ~ 5550 2150
 NoConn ~ 4550 2150
-Text GLabel 2250 5700 2    60   Input ~ 0
-TIM5_CH2
-Text GLabel 2250 5500 2    60   Input ~ 0
-TIM5_CH4
 Text GLabel 2250 6350 2    60   Input ~ 0
 TIM5_CH1
 Text GLabel 2250 6150 2    60   Input ~ 0
 TIM5_CH3
+Text GLabel 4550 4250 0    60   Input ~ 0
+TIM4_CH2
+Text GLabel 4550 4350 0    60   Input ~ 0
+TIM4_CH4
+Text GLabel 5550 2650 2    60   Input ~ 0
+TIM5_CH3
+Text GLabel 5550 2550 2    60   Input ~ 0
+TIM5_CH1
+Text GLabel 2250 5700 2    60   Input ~ 0
+TIM4_CH2
+Text GLabel 2250 5500 2    60   Input ~ 0
+TIM4_CH4
 $EndSCHEMATC
