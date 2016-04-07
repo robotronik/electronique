@@ -74,6 +74,21 @@ X Speed 17 -600 -700 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MCP1702
+#
+DEF MCP1702 U 0 30 Y Y 1 F N
+F0 "U" 100 -250 50 H V C CNN
+F1 "MCP1702" 0 250 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+S -250 -200 250 200 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X V_in 2 -350 50 100 R 50 50 1 1 W
+X V_out 3 350 50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # MCP2562
 #
 DEF MCP2562 U 0 40 Y Y 1 F N
@@ -103,17 +118,17 @@ F2 "" -500 100 60 H V C CNN
 F3 "" -500 100 60 H V C CNN
 DRAW
 S -400 300 300 -1200 0 1 0 f
-X V_Hall 1 -600 200 200 R 50 50 1 1 W
-X Hall_sensor_3 2 -600 100 200 R 50 50 1 1 O
-X Hall_sensor_1 3 -600 0 200 R 50 50 1 1 O
-X Hall_sensor_2 4 -600 -100 200 R 50 50 1 1 O
-X GND 5 -600 -200 200 R 50 50 1 1 O
+X Motor_winding_1 1 -600 -1100 200 R 50 50 1 1 W
+X Motor_winding_1 2 -600 -1000 200 R 50 50 1 1 W
+X Motor_winding_2 3 -600 -800 200 R 50 50 1 1 W
+X Motor_winding_2 4 -600 -700 200 R 50 50 1 1 W
+X Motor_winding_3 5 -600 -500 200 R 50 50 1 1 W
 X Motor_winding_3 6 -600 -400 200 R 50 50 1 1 W
-X Motor_winding_3 7 -600 -500 200 R 50 50 1 1 W
-X Motor_winding_2 8 -600 -700 200 R 50 50 1 1 W
-X Motor_winding_2 9 -600 -800 200 R 50 50 1 1 W
-X Motor_winding_1 10 -600 -1000 200 R 50 50 1 1 W
-X Motor_winding_1 11 -600 -1100 200 R 50 50 1 1 W
+X GND 7 -600 -200 200 R 50 50 1 1 P
+X Hall_sensor_2 8 -600 -100 200 R 50 50 1 1 O
+X Hall_sensor_1 9 -600 0 200 R 50 50 1 1 O
+X Hall_sensor_3 10 -600 100 200 R 50 50 1 1 O
+X V_Hall 11 -600 200 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

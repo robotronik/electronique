@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -68,10 +68,10 @@ F2 "usb_dp" B L 5000 3450 60
 F3 "usb_dm" B L 5000 3350 60 
 F4 "i2c_sda" B L 5000 2950 60 
 F5 "i2c_scl" B L 5000 2850 60 
-F6 "tim2_ch2_encoder" I R 7100 3800 60 
-F7 "tim2_ch1_encoder" I R 7100 3700 60 
-F8 "tim3_ch2_encoder" I R 7100 4200 60 
-F9 "tim3_ch1_encoder" I R 7100 4100 60 
+F6 "tim2_ch2_encoder" I R 7100 3950 60 
+F7 "tim2_ch1_encoder" I R 7100 3850 60 
+F8 "tim3_ch2_encoder" I R 7100 4250 60 
+F9 "tim3_ch1_encoder" I R 7100 4150 60 
 F10 "usart2_rx" I L 5000 3900 60 
 F11 "usart2_tx" O L 5000 4000 60 
 F12 "gpio_direction1" O R 7100 2750 60 
@@ -101,7 +101,7 @@ F2 "dm" B R 3950 3350 60
 F3 "dp" B R 3950 3450 60 
 $EndSheet
 $Sheet
-S 5000 1600 2100 200 
+S 5000 1300 2100 400 
 U 57013891
 F0 "power-part" 60
 F1 "power-part.sch" 60
@@ -161,4 +161,34 @@ Wire Wire Line
 	4600 4000 5000 4000
 Wire Wire Line
 	4600 3900 5000 3900
+$Sheet
+S 8000 3700 750  850 
+U 5707AF1F
+F0 "encoder-part" 60
+F1 "encoder-part.sch" 60
+F2 "encoder1_1" O L 8000 3850 60 
+F3 "encoder1_2" O L 8000 3950 60 
+F4 "encoder2_1" O L 8000 4150 60 
+F5 "encoder2_2" O L 8000 4250 60 
+$EndSheet
+Wire Wire Line
+	7100 3850 8000 3850
+Wire Wire Line
+	7100 3950 8000 3950
+Wire Wire Line
+	7100 4150 8000 4150
+Wire Wire Line
+	7100 4250 8000 4250
+Wire Wire Line
+	5000 2950 3950 2950
+Wire Wire Line
+	3950 2850 5000 2850
+$Sheet
+S 3400 2800 550  200 
+U 570700AB
+F0 "i2c-part" 60
+F1 "i2c-part.sch" 60
+F2 "sda" B R 3950 2950 60 
+F3 "scl" B R 3950 2850 60 
+$EndSheet
 $EndSCHEMATC

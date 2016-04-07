@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -57,10 +57,10 @@ F 3 "" H 5450 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L GND #PWR62
 U 1 1 5702A1E8
 P 5200 2950
-F 0 "#PWR060" H 5200 2700 50  0001 C CNN
+F 0 "#PWR62" H 5200 2700 50  0001 C CNN
 F 1 "GND" H 5208 2777 50  0000 C CNN
 F 2 "" H 5200 2950 50  0000 C CNN
 F 3 "" H 5200 2950 50  0000 C CNN
@@ -71,10 +71,6 @@ Wire Wire Line
 	5200 2950 5200 2900
 Wire Wire Line
 	5200 2900 5250 2900
-Text Label 5100 2700 0    60   ~ 0
-tx
-Text Label 5100 2800 0    60   ~ 0
-rx
 Wire Wire Line
 	4550 2800 5250 2800
 Wire Wire Line
