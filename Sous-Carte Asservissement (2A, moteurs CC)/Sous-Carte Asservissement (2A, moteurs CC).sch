@@ -66,7 +66,7 @@ U 1 1 5703EBAE
 P 9350 900
 F 0 "P3" H 9350 1050 50  0000 C CNN
 F 1 "CONN_01X02" V 9450 900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 9350 900 50  0001 C CNN
+F 2 "Connect:bornier2" H 9350 900 50  0001 C CNN
 F 3 "" H 9350 900 50  0000 C CNN
 	1    9350 900 
 	0    -1   -1   0   
@@ -77,7 +77,7 @@ U 1 1 5703ECD2
 P 1700 950
 F 0 "P2" H 1700 1100 50  0000 C CNN
 F 1 "CONN_01X02" V 1800 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 1700 950 50  0001 C CNN
+F 2 "Connect:bornier2" H 1700 950 50  0001 C CNN
 F 3 "" H 1700 950 50  0000 C CNN
 	1    1700 950 
 	0    -1   -1   0   
@@ -220,7 +220,7 @@ U 1 1 570401FA
 P 2050 3900
 F 0 "P1" H 2050 4850 50  0000 C CNN
 F 1 "CONN_01X18" V 2150 3900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x18" H 2050 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x18" H 2050 3900 50  0001 C CNN
 F 3 "" H 2050 3900 50  0000 C CNN
 	1    2050 3900
 	-1   0    0    1   
@@ -351,7 +351,7 @@ U 1 1 5704CB58
 P 2050 5650
 F 0 "P4" H 2050 5900 50  0000 C CNN
 F 1 "CONN_01X04" V 2150 5650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2050 5650 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 2050 5650 50  0001 C CNN
 F 3 "" H 2050 5650 50  0000 C CNN
 	1    2050 5650
 	-1   0    0    1   
@@ -388,7 +388,7 @@ U 1 1 5704CF98
 P 2050 6300
 F 0 "P5" H 2050 6550 50  0000 C CNN
 F 1 "CONN_01X04" V 2150 6300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2050 6300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 2050 6300 50  0001 C CNN
 F 3 "" H 2050 6300 50  0000 C CNN
 	1    2050 6300
 	-1   0    0    1   
@@ -445,10 +445,6 @@ Text GLabel 2250 6150 2    60   Input ~ 0
 TIM3_CH1
 Text GLabel 2250 6350 2    60   Input ~ 0
 TIM3_CH2
-Text GLabel 5550 2650 2    60   Input ~ 0
-TIM5_CH3
-Text GLabel 5550 2550 2    60   Input ~ 0
-TIM5_CH1
 Text GLabel 2250 5700 2    60   Input ~ 0
 TIM2_CH2
 Text GLabel 2250 5500 2    60   Input ~ 0
@@ -1638,4 +1634,30 @@ Wire Wire Line
 Wire Wire Line
 	1750 1550 2200 1550
 Connection ~ 1750 1550
+$Comp
+L CONN_01X01 P80
+U 1 1 5706AF29
+P 6250 2550
+F 0 "P80" H 6250 2650 50  0000 C CNN
+F 1 "CONN_01X01" V 6350 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 6250 2550 50  0001 C CNN
+F 3 "" H 6250 2550 50  0000 C CNN
+	1    6250 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P81
+U 1 1 5706B044
+P 6250 2650
+F 0 "P81" H 6250 2750 50  0000 C CNN
+F 1 "CONN_01X01" V 6350 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 6250 2650 50  0001 C CNN
+F 3 "" H 6250 2650 50  0000 C CNN
+	1    6250 2650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6050 2550 5550 2550
+Wire Wire Line
+	5550 2650 6050 2650
 $EndSCHEMATC
