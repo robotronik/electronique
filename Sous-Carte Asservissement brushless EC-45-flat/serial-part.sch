@@ -74,22 +74,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 2800 5250 2800
 Wire Wire Line
-	5000 2700 5250 2700
-$Comp
-L R_Small R6
-U 1 1 5702A407
-P 4900 2700
-F 0 "R6" V 4700 2700 50  0000 C CNN
-F 1 "1k" V 4800 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 4900 2700 50  0001 C CNN
-F 3 "" H 4900 2700 50  0000 C CNN
-	1    4900 2700
-	0    -1   -1   0   
-$EndComp
+	4550 2700 5250 2700
 Text HLabel 4550 2700 0    60   Input ~ 0
 rx
-Wire Wire Line
-	4800 2700 4550 2700
 Text HLabel 4550 2800 0    60   Output ~ 0
 tx
 $EndSCHEMATC
