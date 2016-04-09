@@ -435,9 +435,9 @@ pwm2_neg
 Text HLabel 5150 6200 2    60   Output ~ 0
 pwm2
 Text Label 5300 3950 0    60   ~ 0
-pwm1_pos
-Text Label 5300 4050 0    60   ~ 0
 pwm2_pos
+Text Label 5300 4050 0    60   ~ 0
+pwm1_pos
 Wire Wire Line
 	4050 2950 4050 2900
 Wire Wire Line
