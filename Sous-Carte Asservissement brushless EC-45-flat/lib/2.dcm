@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP B_Plug_5mm
+D B plug 5mm
+K power plug connector conn 5mm
+$ENDCMP
+#
 $CMP DEC24-2
 D DE24-2 brushless motor driver
 K DE24-2 brushless motor driver
