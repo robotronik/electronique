@@ -125,6 +125,7 @@ F 0 "F1" H 3950 2090 50  0000 C CNN
 F 1 "FUSE/3A MF-R300" H 3950 1999 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series" H 3950 1850 50  0001 C CNN
 F 3 "" H 3950 1850 50  0000 C CNN
+F 4 "MF-R300" H 3950 1850 60  0001 C CNN "manf#"
 	1    3950 1850
 	1    0    0    -1  
 $EndComp
@@ -147,6 +148,7 @@ F 0 "D1" V 4954 2129 50  0000 L CNN
 F 1 "Schottky/26V MBR0530T1G" V 5045 2129 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" H 5000 2050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/85890.pdf" H 5000 2050 50  0001 C CNN
+F 4 "MBR0530T1G" V 5000 2050 60  0001 C CNN "manf#"
 	1    5000 2050
 	0    1    1    0   
 $EndComp
@@ -298,8 +300,9 @@ U 1 1 57005EAB
 P 1800 2050
 F 0 "C1" H 1888 2096 50  0000 L CNN
 F 1 "100u/35v EEEHA1V101XP" H 1888 2005 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 1800 2050 50  0001 C CNN
+F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 1800 2050 50  0001 C CNN
 F 3 "" H 1800 2050 50  0000 C CNN
+F 4 "EMVE250ADA101MF80G" H 1800 2050 60  0001 C CNN "manf#"
 	1    1800 2050
 	1    0    0    -1  
 $EndComp
@@ -322,6 +325,7 @@ F 0 "F2" H 3950 4440 50  0000 C CNN
 F 1 "FUSE/3A MF-R300" H 3950 4349 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series" H 3950 4200 50  0001 C CNN
 F 3 "" H 3950 4200 50  0000 C CNN
+F 4 "MF-R300" H 3950 4200 60  0001 C CNN "manf#"
 	1    3950 4200
 	1    0    0    -1  
 $EndComp
@@ -344,6 +348,7 @@ F 0 "D2" V 4954 4479 50  0000 L CNN
 F 1 "Schottky/26V MBR0530T1G" V 5045 4479 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" H 5000 4400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/85890.pdf" H 5000 4400 50  0001 C CNN
+F 4 "MBR0530T1G" V 5000 4400 60  0001 C CNN "manf#"
 	1    5000 4400
 	0    1    1    0   
 $EndComp
