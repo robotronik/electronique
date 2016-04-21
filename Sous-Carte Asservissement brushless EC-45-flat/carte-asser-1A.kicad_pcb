@@ -1,7 +1,7 @@
-(kicad_pcb (version 4) (host pcbnew 0.201604021231+6659~43~ubuntu15.10.1-product)
+(kicad_pcb (version 4) (host pcbnew 0.201604182031+6701~44~ubuntu15.10.1-product)
 
   (general
-    (links 0)
+    (links 156)
     (no_connects 0)
     (area 109.16894 60.025519 210.349326 135.523001)
     (thickness 1)
@@ -5945,7 +5945,7 @@
   (gr_text "5v a b gnd" (at 122.01624 126.26952) (layer F.Cu) (tstamp 570990DD)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "rx tx gnd" (at 134.28444 126.26952) (layer F.Cu) (tstamp 570990D4)
+  (gr_text "tx rx gnd" (at 134.28444 126.26952) (layer F.Cu) (tstamp 570990D4)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "5v a b gnd" (at 146.52724 126.29492) (layer F.Cu) (tstamp 570990D1)
