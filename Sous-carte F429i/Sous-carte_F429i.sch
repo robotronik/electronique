@@ -962,17 +962,6 @@ F 3 "" H 5300 2400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 P29
-U 1 1 570EE71E
-P 5300 2500
-F 0 "P29" H 5300 2600 50  0000 C CNN
-F 1 "CONN_01X01" V 5400 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5300 2500 50  0001 C CNN
-F 3 "" H 5300 2500 50  0000 C CNN
-	1    5300 2500
-	-1   0    0    1   
-$EndComp
-$Comp
 L CONN_01X01 P30
 U 1 1 570EE7DC
 P 5300 2600
@@ -2169,8 +2158,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 2400 5950 2400
 Wire Wire Line
-	5950 2500 5500 2500
-Wire Wire Line
 	5500 2600 5950 2600
 Wire Wire Line
 	5950 2800 5500 2800
@@ -2843,4 +2830,6 @@ F 3 "" H 4800 3150 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4800 3100 4800 3150
+Text GLabel 5950 2500 0    60   Input ~ 0
+EQUIPE
 $EndSCHEMATC
