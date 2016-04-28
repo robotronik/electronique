@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "/home/salamandar/robotronik/electronique/Sous-carte F429i/Sous-carte_F429i.sch")
-    (date "ven. 29 avril 2016 01:06:36 CEST")
+    (source "/home/felix/Robotronik/Dépôts/electronique/Sous-carte F429i/Sous-carte_F429i.sch")
+    (date "ven. 29 avril 2016 01:38:32 CEST")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1177,12 +1177,12 @@
         (pin (num 127) (name GND) (type BiDi))
         (pin (num 128) (name GND) (type BiDi)))))
   (libraries
-    (library (logical stm32)
-      (uri /home/salamandar/robotronik/electronique/Librairies/Kicad/stm32.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical stm32)
+      (uri /home/felix/Robotronik/Dépôts/electronique/Librairies/Kicad/stm32.lib)))
   (nets
     (net (code 1) (name "Net-(P22-Pad1)")
       (node (ref P22) (pin 1))
