@@ -13441,8 +13441,6 @@ Connection ~ 11700 9000
 Connection ~ 12200 9000
 Connection ~ 12700 9000
 Connection ~ 13200 9000
-Wire Wire Line
-	13700 9000 14200 9000
 Connection ~ 13700 9000
 Connection ~ 14700 9000
 Connection ~ 15200 9000
@@ -15442,8 +15440,6 @@ Connection ~ 3700 9000
 Connection ~ 4200 9000
 Connection ~ 4700 9000
 Connection ~ 5200 9000
-Wire Wire Line
-	5700 9000 6200 9000
 Connection ~ 5700 9000
 Connection ~ 6700 9000
 Connection ~ 7200 9000
@@ -15782,4 +15778,6 @@ Wire Wire Line
 	19900 10600 19900 13500
 Wire Wire Line
 	20000 13800 20000 10700
+Connection ~ 6200 9000
+Connection ~ 14200 9000
 $EndSCHEMATC
