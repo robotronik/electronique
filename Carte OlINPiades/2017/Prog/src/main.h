@@ -5,7 +5,7 @@
   ******************************************************************************
   ** This notice applies to any and all portions of this file
   * that are not between comment pairs USER CODE BEGIN and
-  * USER CODE END. Other portions of this file, whether 
+  * USER CODE END. Other portions of this file, whether
   * inserted by the user or by software development tools
   * are owned by their respective copyright owners.
   *
@@ -60,8 +60,8 @@
 #define LINE_2_GPIO_Port GPIOA
 #define LINE_1_Pin GPIO_PIN_0
 #define LINE_1_GPIO_Port GPIOB
-#define LINE_2B1_Pin GPIO_PIN_1
-#define LINE_2B1_GPIO_Port GPIOB
+#define LINE_0_Pin GPIO_PIN_1
+#define LINE_0_GPIO_Port GPIOB
 #define SERIAL_IN_Pin GPIO_PIN_10
 #define SERIAL_IN_GPIO_Port GPIOA
 #define CLK_COL_Pin GPIO_PIN_11
@@ -79,11 +79,11 @@ void _Error_Handler(char *, int);
 
 /**
   * @}
-  */ 
+  */
 
 /**
   * @}
-*/ 
+*/
 
 #endif /* __MAIN_H */
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

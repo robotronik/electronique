@@ -5,7 +5,7 @@
   ******************************************************************************
   ** This notice applies to any and all portions of this file
   * that are not between comment pairs USER CODE BEGIN and
-  * USER CODE END. Other portions of this file, whether 
+  * USER CODE END. Other portions of this file, whether
   * inserted by the user or by software development tools
   * are owned by their respective copyright owners.
   *
@@ -40,7 +40,7 @@
 #include "stm32f3xx_hal.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "udelay.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -93,7 +93,8 @@ int main(void)
   MX_USART2_UART_Init();
 
   /* USER CODE BEGIN 2 */
-
+  int i,j,f=0;
+  char **frames;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,9 +102,29 @@ int main(void)
   while (1)
   {
   /* USER CODE END WHILE */
+    for(i=0;i<32;i++)
+    {
+      HAL_GPIO_WritePin(DATA_GPIO_Port,DATA_Pin,1);//purge des capas
+      HAL_GPIO_WritePin(PURGE_GPIO_Port,PURGE_Pin,1);
+      udelay(100);
+      HAL_GPIO_WritePin(PURGE_GPIO_Port,PURGE_Pin,0);
+      HAL_GPIO_WritePin(DATA_GPIO_Port,DATA_Pin,0);
 
+      //sélection de la colonne
+      HAL_GPIO_WritePin(LINE_0_GPIO_Port,LINE_0_Pin, (i & 1)!=0);
+      HAL_GPIO_WritePin(LINE_1_GPIO_Port,LINE_1_Pin, (i & 2)!=0);
+      HAL_GPIO_WritePin(LINE_2_GPIO_Port,LINE_2_Pin, (i & 4)!=0);
+      HAL_GPIO_WritePin(LINE_3_GPIO_Port,LINE_3_Pin, (i & 8)!=0);
+      HAL_GPIO_WritePin(LINE_4_GPIO_Port,LINE_4_Pin, (i & 16)!=0);
+
+      //allumage des leds
+      for(j=0;j<32;j++)
+      {
+
+      }
+    }
   /* USER CODE BEGIN 3 */
-
+    f++;
   }
   /* USER CODE END 3 */
 
@@ -117,7 +138,7 @@ void SystemClock_Config(void)
   RCC_OscInitTypeDef RCC_OscInitStruct;
   RCC_ClkInitTypeDef RCC_ClkInitStruct;
 
-    /**Initializes the CPU, AHB and APB busses clocks 
+    /**Initializes the CPU, AHB and APB busses clocks
     */
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
@@ -130,7 +151,7 @@ void SystemClock_Config(void)
     _Error_Handler(__FILE__, __LINE__);
   }
 
-    /**Initializes the CPU, AHB and APB busses clocks 
+    /**Initializes the CPU, AHB and APB busses clocks
     */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
@@ -144,11 +165,11 @@ void SystemClock_Config(void)
     _Error_Handler(__FILE__, __LINE__);
   }
 
-    /**Configure the Systick interrupt time 
+    /**Configure the Systick interrupt time
     */
   HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq()/1000);
 
-    /**Configure the Systick 
+    /**Configure the Systick
     */
   HAL_SYSTICK_CLKSourceConfig(SYSTICK_CLKSOURCE_HCLK);
 
@@ -177,9 +198,9 @@ static void MX_USART2_UART_Init(void)
 
 }
 
-/** Configure pins as 
-        * Analog 
-        * Input 
+/** Configure pins as
+        * Analog
+        * Input
         * Output
         * EVENT_OUT
         * EXTI
@@ -194,26 +215,26 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, PURGE_Pin|BLANK_Pin|DATA_Pin|LINE_4_Pin 
-                          |LINE_3_Pin|LINE_2_Pin|SERIAL_IN_Pin|CLK_COL_Pin 
+  HAL_GPIO_WritePin(GPIOA, PURGE_Pin|BLANK_Pin|DATA_Pin|LINE_4_Pin
+                          |LINE_3_Pin|LINE_2_Pin|SERIAL_IN_Pin|CLK_COL_Pin
                           |LATCH_COL_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, LINE_1_Pin|LINE_2B1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, LINE_1_Pin|LINE_0_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : PURGE_Pin BLANK_Pin DATA_Pin LINE_4_Pin 
-                           LINE_3_Pin LINE_2_Pin SERIAL_IN_Pin CLK_COL_Pin 
+  /*Configure GPIO pins : PURGE_Pin BLANK_Pin DATA_Pin LINE_4_Pin
+                           LINE_3_Pin LINE_2_Pin SERIAL_IN_Pin CLK_COL_Pin
                            LATCH_COL_Pin */
-  GPIO_InitStruct.Pin = PURGE_Pin|BLANK_Pin|DATA_Pin|LINE_4_Pin 
-                          |LINE_3_Pin|LINE_2_Pin|SERIAL_IN_Pin|CLK_COL_Pin 
+  GPIO_InitStruct.Pin = PURGE_Pin|BLANK_Pin|DATA_Pin|LINE_4_Pin
+                          |LINE_3_Pin|LINE_2_Pin|SERIAL_IN_Pin|CLK_COL_Pin
                           |LATCH_COL_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : LINE_1_Pin LINE_2B1_Pin */
-  GPIO_InitStruct.Pin = LINE_1_Pin|LINE_2B1_Pin;
+  /*Configure GPIO pins : LINE_1_Pin LINE_0_Pin */
+  GPIO_InitStruct.Pin = LINE_1_Pin|LINE_0_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
@@ -234,10 +255,10 @@ void _Error_Handler(char * file, int line)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
-  while(1) 
+  while(1)
   {
   }
-  /* USER CODE END Error_Handler_Debug */ 
+  /* USER CODE END Error_Handler_Debug */
 }
 
 #ifdef USE_FULL_ASSERT
@@ -262,10 +283,10 @@ void assert_failed(uint8_t* file, uint32_t line)
 
 /**
   * @}
-  */ 
+  */
 
 /**
   * @}
-*/ 
+*/
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
