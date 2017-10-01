@@ -41,6 +41,9 @@
 
 /* USER CODE BEGIN Includes */
 #include "udelay.h"
+
+#define nbrframes 4
+#define boucleframe 200
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -93,8 +96,10 @@ int main(void)
   MX_USART2_UART_Init();
 
   /* USER CODE BEGIN 2 */
-  int i,j,f=0;
-  char **frames;
+  int i,j,k;
+  uint8_t f=0;
+  uint8_t data[4]={127,255,0};
+  char ***frames;//defini dans un fichier .h pas encore existant
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -102,29 +107,46 @@ int main(void)
   while (1)
   {
   /* USER CODE END WHILE */
-    for(i=0;i<32;i++)
+    data[2]=f;
+    HAL_UART_Transmit_IT(&huart2,data,3);
+    for(k=0;k<boucleframe;k++)
     {
-      HAL_GPIO_WritePin(DATA_GPIO_Port,DATA_Pin,1);//purge des capas
-      HAL_GPIO_WritePin(PURGE_GPIO_Port,PURGE_Pin,1);
-      udelay(100);
-      HAL_GPIO_WritePin(PURGE_GPIO_Port,PURGE_Pin,0);
-      HAL_GPIO_WritePin(DATA_GPIO_Port,DATA_Pin,0);
-
-      //sélection de la colonne
-      HAL_GPIO_WritePin(LINE_0_GPIO_Port,LINE_0_Pin, (i & 1)!=0);
-      HAL_GPIO_WritePin(LINE_1_GPIO_Port,LINE_1_Pin, (i & 2)!=0);
-      HAL_GPIO_WritePin(LINE_2_GPIO_Port,LINE_2_Pin, (i & 4)!=0);
-      HAL_GPIO_WritePin(LINE_3_GPIO_Port,LINE_3_Pin, (i & 8)!=0);
-      HAL_GPIO_WritePin(LINE_4_GPIO_Port,LINE_4_Pin, (i & 16)!=0);
-
-      //allumage des leds
-      for(j=0;j<32;j++)
+      for(i=0;i<32;i++)
       {
+        HAL_GPIO_WritePin(DATA_GPIO_Port,DATA_Pin,1);//purge des capas essayer sans
+        udelay(2);//pour eviter conduction croisee
+        HAL_GPIO_WritePin(BLANK_GPIO_Port,BLANK_Pin,1);
+        HAL_GPIO_WritePin(PURGE_GPIO_Port,PURGE_Pin,1);
+        udelay(2);//attente si pas suffisant
 
+        //sélection de la colonne
+        HAL_GPIO_WritePin(LINE_0_GPIO_Port,LINE_0_Pin, (i & 1)!=0);
+        HAL_GPIO_WritePin(LINE_1_GPIO_Port,LINE_1_Pin, (i & 2)!=0);
+        HAL_GPIO_WritePin(LINE_2_GPIO_Port,LINE_2_Pin, (i & 4)!=0);
+        HAL_GPIO_WritePin(LINE_3_GPIO_Port,LINE_3_Pin, (i & 8)!=0);
+        HAL_GPIO_WritePin(LINE_4_GPIO_Port,LINE_4_Pin, (i & 16)!=0);
+
+        //selection des leds
+        HAL_GPIO_WritePin(LATCH_COL_GPIO_Port,LATCH_COL_Pin,0);
+        for(j=0;j<32;j++)
+        {
+          HAL_GPIO_WritePin(CLK_COL_GPIO_Port,CLK_COL_Pin,0);
+          HAL_GPIO_WritePin(SERIAL_IN_GPIO_Port,SERIAL_IN_Pin,frames[f][i][j]);
+          HAL_GPIO_WritePin(CLK_COL_GPIO_Port,CLK_COL_Pin,1);
+        }
+        HAL_GPIO_WritePin(LATCH_COL_GPIO_Port,LATCH_COL_Pin,1);
+
+        HAL_GPIO_WritePin(PURGE_GPIO_Port,PURGE_Pin,0);//reactivation
+        udelay(2);//pour eviter conduction croisee
+        HAL_GPIO_WritePin(BLANK_GPIO_Port,BLANK_Pin,0);
+        HAL_GPIO_WritePin(DATA_GPIO_Port,DATA_Pin,0);
+
+        udelay(200);
       }
     }
   /* USER CODE BEGIN 3 */
     f++;
+    if(f==nbrframes) f=0;
   }
   /* USER CODE END 3 */
 
