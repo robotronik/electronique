@@ -39,6 +39,7 @@ NVIC.PendSV_IRQn=true\:0\:0\:false\:false\:true
 NVIC.PriorityGroup=NVIC_PRIORITYGROUP_4
 NVIC.SVCall_IRQn=true\:0\:0\:false\:false\:true
 NVIC.SysTick_IRQn=true\:0\:0\:false\:false\:true
+NVIC.USART2_IRQn=true\:0\:0\:false\:false\:true
 NVIC.UsageFault_IRQn=true\:0\:0\:false\:false\:true
 PA0.GPIOParameters=GPIO_Speed,GPIO_Label
 PA0.GPIO_Label=PURGE

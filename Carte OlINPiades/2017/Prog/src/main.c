@@ -98,8 +98,9 @@ int main(void)
   /* USER CODE BEGIN 2 */
   int i,j,k;
   uint8_t f=0;
-  uint8_t data[4]={127,255,0};
+  uint8_t data[1]={0};
   char ***frames;//defini dans un fichier .h pas encore existant
+//https://www.waveshare.com/wiki/STM32CubeMX_Tutorial_Series:_USART
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -107,8 +108,9 @@ int main(void)
   while (1)
   {
   /* USER CODE END WHILE */
-    data[2]=f;
-    HAL_UART_Transmit_IT(&huart2,data,3);
+
+    data[0]=f;
+    HAL_UART_Transmit_IT(&huart2,data,1);
     for(k=0;k<boucleframe;k++)
     {
       for(i=0;i<32;i++)
@@ -147,9 +149,9 @@ int main(void)
   /* USER CODE BEGIN 3 */
     f++;
     if(f==nbrframes) f=0;
-  }
   /* USER CODE END 3 */
 
+  }
 }
 
 /** System Clock Configuration

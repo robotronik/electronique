@@ -5,7 +5,7 @@
   ******************************************************************************
   ** This notice applies to any and all portions of this file
   * that are not between comment pairs USER CODE BEGIN and
-  * USER CODE END. Other portions of this file, whether
+  * USER CODE END. Other portions of this file, whether 
   * inserted by the user or by software development tools
   * are owned by their respective copyright owners.
   *
@@ -79,11 +79,11 @@ void _Error_Handler(char *, int);
 
 /**
   * @}
-  */
+  */ 
 
 /**
   * @}
-*/
+*/ 
 
 #endif /* __MAIN_H */
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
