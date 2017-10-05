@@ -28,6 +28,7 @@ comp:
 	cd matrices ;\
 	make all
 	cd $(ori);\
+
 	@echo "${rouge}+----------------[ Compilation terminée ]---------------+ ${fin}"
 
 flash:
