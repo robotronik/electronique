@@ -108,7 +108,8 @@ int main(void)
   while (1)
   {
   /* USER CODE END WHILE */
-  data[0]=f;
+    data[0]=f;
+    HAL_UART_Transmit_IT(&huart2,data,1);
     mise_un_oeil(frames);
     /*mise_zero_oeil(frames);
     quart_cercle(frames);
@@ -116,7 +117,7 @@ int main(void)
     iris_cercle(frames,((f<nbrframes)?f:(2*nbrframes-f))+8,((f<nbrframes)?f:(2*nbrframes-f))+8,2);*/
 
     //oeil_complet(frames, ((f<nbrframes)?f:(2*nbrframes-f))+8, 1);
-    //  HAL_UART_Transmit_IT(&huart2,data,1);
+
       for(k=0;k<boucleframe;k++)
       {
         for(i=0;i<32;i++)
