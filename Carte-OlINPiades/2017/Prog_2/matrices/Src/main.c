@@ -42,7 +42,7 @@
 /* USER CODE BEGIN Includes */
 #include "udelay.h"
 
-#define nbrframes 15
+#define nbrframes 112
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -109,16 +109,16 @@ int main(void)
 
   f=0;//initialiser la matrice
   fprec=f;
+  //animation(frames,0);
   while (1)
   {
   /* USER CODE END WHILE */
     if(f!=fprec)
     {
-      if(f>=2*nbrframes) f=2*nbrframes;
-      //rafraichir
+      if(f>=nbrframes) f=nbrframes-1;
+      animation(frames,f);
       fprec=f;
     }
-    mise_un_oeil(frames);
     /*mise_zero_oeil(frames);
     quart_cercle(frames);
     symetrie_centrale_4(frames);
@@ -143,7 +143,7 @@ int main(void)
           for(j=0;j<32;j++)
           {
             HAL_GPIO_WritePin(CLK_COL_GPIO_Port,CLK_COL_Pin,0);
-            HAL_GPIO_WritePin(SERIAL_IN_GPIO_Port,SERIAL_IN_Pin,frames[i][j]);
+            HAL_GPIO_WritePin(SERIAL_IN_GPIO_Port,SERIAL_IN_Pin,frames[i][31-j]);
             HAL_GPIO_WritePin(CLK_COL_GPIO_Port,CLK_COL_Pin,1);
           }
           HAL_GPIO_WritePin(LATCH_COL_GPIO_Port,LATCH_COL_Pin,1);
